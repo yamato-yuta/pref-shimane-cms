@@ -1,0 +1,749 @@
+# Logfile created on 2017-08-23 10:20:23 +0900 by logger.rb/44203
+I, [2017-08-23T10:20:23.718449 #4502]  INFO -- : Started GET "/susanoo/" for 192.168.122.1 at 2017-08-23 10:20:23 +0900
+I, [2017-08-23T10:20:24.310260 #4502]  INFO -- : Processing by Susanoo::UsersController#login as HTML
+I, [2017-08-23T10:20:24.678114 #4502]  INFO -- :   Rendered shared/infos/_index.html.erb (2.6ms)
+I, [2017-08-23T10:20:24.678654 #4502]  INFO -- :   Rendered susanoo/users/login.html.erb within layouts/application (117.3ms)
+I, [2017-08-23T10:20:24.744044 #4502]  INFO -- :   Rendered shared/_navigation.html.erb (5.8ms)
+I, [2017-08-23T10:20:24.810761 #4502]  INFO -- : Completed 200 OK in 500ms (Views: 270.9ms | ActiveRecord: 224.4ms)
+I, [2017-08-23T10:20:26.205512 #4502]  INFO -- : Started GET "/favicon.ico" for 192.168.122.1 at 2017-08-23 10:20:26 +0900
+I, [2017-08-23T10:20:26.209313 #4502]  INFO -- : Processing by Susanoo::VisitorsController#view as 
+I, [2017-08-23T10:20:26.209445 #4502]  INFO -- :   Parameters: {"path"=>"favicon"}
+I, [2017-08-23T10:20:26.255621 #4502]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/not_found.html.erb (0.7ms)
+I, [2017-08-23T10:20:26.256057 #4502]  INFO -- : Completed 404 Not Found in 46ms (Views: 8.0ms | ActiveRecord: 35.1ms)
+I, [2017-08-23T10:20:26.273824 #4502]  INFO -- : Started GET "/favicon.ico" for 192.168.122.1 at 2017-08-23 10:20:26 +0900
+I, [2017-08-23T10:20:26.277069 #4502]  INFO -- : Processing by Susanoo::VisitorsController#view as 
+I, [2017-08-23T10:20:26.277212 #4502]  INFO -- :   Parameters: {"path"=>"favicon"}
+I, [2017-08-23T10:20:26.302581 #4502]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/not_found.html.erb (0.1ms)
+I, [2017-08-23T10:20:26.302839 #4502]  INFO -- : Completed 404 Not Found in 25ms (Views: 0.9ms | ActiveRecord: 23.5ms)
+I, [2017-08-23T10:44:04.618313 #19177]  INFO -- : Started GET "/susanoo/" for 192.168.122.1 at 2017-08-23 10:44:04 +0900
+I, [2017-08-23T10:44:05.017597 #19177]  INFO -- : Processing by Susanoo::UsersController#login as HTML
+I, [2017-08-23T10:44:05.199018 #19177]  INFO -- :   Rendered shared/infos/_index.html.erb (2.7ms)
+I, [2017-08-23T10:44:05.199227 #19177]  INFO -- :   Rendered susanoo/users/login.html.erb within layouts/application (101.0ms)
+I, [2017-08-23T10:44:05.236016 #19177]  INFO -- :   Rendered shared/_navigation.html.erb (4.7ms)
+I, [2017-08-23T10:44:05.255139 #19177]  INFO -- : Completed 200 OK in 237ms (Views: 144.6ms | ActiveRecord: 87.9ms)
+I, [2017-08-23T10:44:06.791461 #19177]  INFO -- : Started GET "/favicon.ico" for 192.168.122.1 at 2017-08-23 10:44:06 +0900
+I, [2017-08-23T10:44:06.795301 #19177]  INFO -- : Processing by Susanoo::VisitorsController#view as 
+I, [2017-08-23T10:44:06.795433 #19177]  INFO -- :   Parameters: {"path"=>"favicon"}
+I, [2017-08-23T10:44:06.855695 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/not_found.html.erb (0.6ms)
+I, [2017-08-23T10:44:06.856022 #19177]  INFO -- : Completed 404 Not Found in 60ms (Views: 8.9ms | ActiveRecord: 48.6ms)
+I, [2017-08-23T10:44:17.809032 #19177]  INFO -- : Started POST "/susanoo/users/authenticate" for 192.168.122.1 at 2017-08-23 10:44:17 +0900
+I, [2017-08-23T10:44:17.815063 #19177]  INFO -- : Processing by Susanoo::UsersController#authenticate as HTML
+I, [2017-08-23T10:44:17.815395 #19177]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"E0T7RCyYZEN9QKjd1RQ5MBCjN+Btfi+rD0d+tj9Ki34=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+I, [2017-08-23T10:44:17.931772 #19177]  INFO -- : Redirected to http://192.168.122.1:8000/susanoo/dashboards
+I, [2017-08-23T10:44:17.932040 #19177]  INFO -- : Completed 302 Found in 116ms (ActiveRecord: 47.6ms)
+I, [2017-08-23T10:44:18.103237 #19177]  INFO -- : Started GET "/susanoo/dashboards" for 192.168.122.1 at 2017-08-23 10:44:18 +0900
+I, [2017-08-23T10:44:18.111171 #19177]  INFO -- : Processing by Susanoo::DashboardsController#index as HTML
+I, [2017-08-23T10:44:18.232450 #19177]  INFO -- :   Rendered shared/infos/_index.html.erb (0.5ms)
+I, [2017-08-23T10:44:18.232658 #19177]  INFO -- :   Rendered susanoo/dashboards/index.html.erb within layouts/application (35.2ms)
+I, [2017-08-23T10:44:18.334540 #19177]  INFO -- :   Rendered shared/_navigation.html.erb (30.8ms)
+I, [2017-08-23T10:44:18.342154 #19177]  INFO -- : Completed 200 OK in 231ms (Views: 166.8ms | ActiveRecord: 32.4ms)
+I, [2017-08-23T10:45:50.400759 #19177]  INFO -- : Started GET "/susanoo/pages" for 192.168.122.1 at 2017-08-23 10:45:50 +0900
+I, [2017-08-23T10:45:50.404141 #19177]  INFO -- : Processing by Susanoo::PagesController#index as HTML
+I, [2017-08-23T10:45:50.696352 #19177]  INFO -- :   Rendered susanoo/pages/_page_list.html.erb (131.2ms)
+I, [2017-08-23T10:45:50.696507 #19177]  INFO -- :   Rendered susanoo/pages/_pages.html.erb (185.4ms)
+I, [2017-08-23T10:45:50.696985 #19177]  INFO -- :   Rendered susanoo/pages/index.html.erb within layouts/explore (201.3ms)
+I, [2017-08-23T10:45:50.795104 #19177]  INFO -- :   Rendered shared/_navigation.html.erb (25.9ms)
+I, [2017-08-23T10:45:51.553567 #19177]  INFO -- : Completed 200 OK in 1149ms (Views: 995.1ms | ActiveRecord: 132.1ms)
+I, [2017-08-23T10:45:51.746322 #19177]  INFO -- : Started GET "/assets/treeview-382138c3d1ebb337b508427508cdab72.css" for 192.168.122.1 at 2017-08-23 10:45:51 +0900
+I, [2017-08-23T10:45:51.933791 #19177]  INFO -- : Started GET "/assets/susanoo/pages-2ba3ba78e3a7363cad6e43c74ba66075.css" for 192.168.122.1 at 2017-08-23 10:45:51 +0900
+I, [2017-08-23T10:45:51.938595 #19177]  INFO -- : Started GET "/assets/susanoo/pages-e63997d4f6abfbf4b15f65135253689e.js" for 192.168.122.1 at 2017-08-23 10:45:51 +0900
+I, [2017-08-23T10:45:51.940239 #19177]  INFO -- : Started GET "/assets/explore-dbbd2a8c580728bdeb0d9dae8abf5718.css" for 192.168.122.1 at 2017-08-23 10:45:51 +0900
+I, [2017-08-23T10:45:52.837209 #19177]  INFO -- : Started GET "/assets/icons/coloricons-sprite-14c815084c73c962ebe8b67897c628d8.png" for 192.168.122.1 at 2017-08-23 10:45:52 +0900
+I, [2017-08-23T10:46:01.396242 #19177]  INFO -- : Started GET "/susanoo/pages/1" for 192.168.122.1 at 2017-08-23 10:46:01 +0900
+I, [2017-08-23T10:46:01.399764 #19177]  INFO -- : Processing by Susanoo::PagesController#show as HTML
+I, [2017-08-23T10:46:01.399882 #19177]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2017-08-23T10:46:01.627158 #19177]  INFO -- :   Rendered susanoo/pages/show.html.erb within layouts/application (142.5ms)
+I, [2017-08-23T10:46:01.632430 #19177]  INFO -- :   Rendered shared/_navigation.html.erb (4.2ms)
+I, [2017-08-23T10:46:01.633983 #19177]  INFO -- : Completed 200 OK in 234ms (Views: 139.5ms | ActiveRecord: 83.3ms)
+I, [2017-08-23T10:46:08.134535 #19177]  INFO -- : Started GET "/susanoo/page_contents/new?page_id=1" for 192.168.122.1 at 2017-08-23 10:46:08 +0900
+I, [2017-08-23T10:46:08.140006 #19177]  INFO -- : Processing by Susanoo::PageContentsController#new as HTML
+I, [2017-08-23T10:46:08.140140 #19177]  INFO -- :   Parameters: {"page_id"=>"1"}
+I, [2017-08-23T10:46:08.355414 #19177]  INFO -- :   Rendered susanoo/page_contents/_form.html.erb (22.4ms)
+I, [2017-08-23T10:46:08.355624 #19177]  INFO -- :   Rendered susanoo/page_contents/new.html.erb within layouts/editor (39.0ms)
+I, [2017-08-23T10:46:08.435050 #19177]  INFO -- :   Rendered plugins/form/_page_list.html.erb (1.2ms)
+I, [2017-08-23T10:46:08.450652 #19177]  INFO -- :   Rendered plugins/form/_genre_list.html.erb (0.7ms)
+I, [2017-08-23T10:46:08.456494 #19177]  INFO -- :   Rendered plugins/form/_section_news.html.erb (1.0ms)
+I, [2017-08-23T10:46:08.459879 #19177]  INFO -- :   Rendered plugins/form/_section_news_by_path.html.erb (1.3ms)
+I, [2017-08-23T10:46:08.472564 #19177]  INFO -- :   Rendered plugins/form/_emergency.html.erb (1.9ms)
+I, [2017-08-23T10:46:08.479635 #19177]  INFO -- :   Rendered plugins/form/_genre_down_list.html.erb (0.6ms)
+I, [2017-08-23T10:46:08.494250 #19177]  INFO -- :   Rendered plugins/form/_genre_news_list.html.erb (1.1ms)
+I, [2017-08-23T10:46:08.498145 #19177]  INFO -- :   Rendered plugins/form/_genre_news_list_truncate.html.erb (1.4ms)
+I, [2017-08-23T10:46:08.504586 #19177]  INFO -- :   Rendered plugins/form/_section.html.erb (0.8ms)
+I, [2017-08-23T10:46:08.507342 #19177]  INFO -- :   Rendered plugins/form/_section_top_list.html.erb (0.8ms)
+I, [2017-08-23T10:46:08.511146 #19177]  INFO -- :   Rendered plugins/form/_sitemap.html.erb (1.3ms)
+I, [2017-08-23T10:46:08.522993 #19177]  INFO -- :   Rendered plugins/form/_sub_genre_list.html.erb (2.1ms)
+I, [2017-08-23T10:46:08.536484 #19177]  INFO -- :   Rendered plugins/form/_counter.html.erb (1.5ms)
+I, [2017-08-23T10:46:08.548784 #19177]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_calendar_calendar.html.erb (1.3ms)
+I, [2017-08-23T10:46:08.553593 #19177]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_calendar_pickup.html.erb (1.2ms)
+I, [2017-08-23T10:46:08.559764 #19177]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_page_list.html.erb (1.0ms)
+I, [2017-08-23T10:46:08.703788 #19177]  INFO -- : Completed 200 OK in 563ms (Views: 418.1ms | ActiveRecord: 97.0ms)
+I, [2017-08-23T10:46:08.804617 #19177]  INFO -- : Started GET "/assets/susanoo/page_contents-8239052d0914210030b9c74b12a0bc3b.css" for 192.168.122.1 at 2017-08-23 10:46:08 +0900
+I, [2017-08-23T10:46:08.807446 #19177]  INFO -- : Started GET "/assets/editor-783f4f736a467ab81df2ec0d9ade1fd1.js" for 192.168.122.1 at 2017-08-23 10:46:08 +0900
+I, [2017-08-23T10:46:10.281175 #19177]  INFO -- : Started GET "/assets/susanoo/page_contents-7f1826c8c3b874a7add4ff6acaac5f7e.js" for 192.168.122.1 at 2017-08-23 10:46:10 +0900
+I, [2017-08-23T10:46:10.285826 #19177]  INFO -- : Started GET "/assets/editor-cae40b11e73dff1f6eadb9b9e74f594a.css" for 192.168.122.1 at 2017-08-23 10:46:10 +0900
+I, [2017-08-23T10:46:10.413518 #19177]  INFO -- : Started GET "/assets/twitter/bootstrap/glyphicons-halflings-white-d76e09abbb60b19b137a943df4627474.png" for 192.168.122.1 at 2017-08-23 10:46:10 +0900
+I, [2017-08-23T10:46:11.266155 #19177]  INFO -- : Started GET "/susanoo/page_contents/content?page_id=1" for 192.168.122.1 at 2017-08-23 10:46:11 +0900
+I, [2017-08-23T10:46:11.270994 #19177]  INFO -- : Processing by Susanoo::PageContentsController#content as HTML
+I, [2017-08-23T10:46:11.271769 #19177]  INFO -- :   Parameters: {"page_id"=>"1"}
+I, [2017-08-23T10:46:11.449999 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header.html.erb (31.4ms)
+I, [2017-08-23T10:46:11.458979 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header_sub.html.erb (5.7ms)
+I, [2017-08-23T10:46:11.467227 #19177]  INFO -- :   Rendered inline template (0.2ms)
+I, [2017-08-23T10:46:11.467454 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_content.html.erb (1.3ms)
+I, [2017-08-23T10:46:11.468525 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/_body.html.erb (7.5ms)
+I, [2017-08-23T10:46:11.476752 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_footer.html.erb (1.8ms)
+I, [2017-08-23T10:46:11.476984 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/show.html.erb (108.9ms)
+I, [2017-08-23T10:46:11.477261 #19177]  INFO -- : Completed 200 OK in 205ms (Views: 89.5ms | ActiveRecord: 56.6ms)
+I, [2017-08-23T10:46:11.489496 #19177]  INFO -- : Started GET "/assets/twitter/bootstrap/glyphicons-halflings-8115abe5f2ac0bac7ff7ce2e61a59ae1.png" for 192.168.122.1 at 2017-08-23 10:46:11 +0900
+I, [2017-08-23T10:46:11.540550 #19177]  INFO -- : Started GET "/assets/editor.iframe-b07a50f0f99b0981dc185b46d8756555.css" for 192.168.122.1 at 2017-08-23 10:46:11 +0900
+I, [2017-08-23T10:46:15.617236 #19177]  INFO -- : Started GET "/assets/editor.iframe-b77baf87d6d93721de93d84600e09418.js" for 192.168.122.1 at 2017-08-23 10:46:15 +0900
+I, [2017-08-23T10:46:17.011263 #19177]  INFO -- : Started GET "/stylesheets/doc.css" for 192.168.122.1 at 2017-08-23 10:46:17 +0900
+I, [2017-08-23T10:46:17.014687 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T10:46:17.014822 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/doc"}
+I, [2017-08-23T10:46:17.015740 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T10:46:17.015981 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T10:46:17.018308 #19177]  INFO -- : Started GET "/stylesheets/bootstrap.css" for 192.168.122.1 at 2017-08-23 10:46:17 +0900
+I, [2017-08-23T10:46:17.019316 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T10:46:17.019406 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/bootstrap"}
+I, [2017-08-23T10:46:17.020095 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T10:46:17.020331 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:05:33.216547 #19177]  INFO -- : Started GET "/assets/ckeditor/config.js?t=DAED" for 192.168.122.1 at 2017-08-23 11:05:33 +0900
+I, [2017-08-23T11:05:33.465789 #19177]  INFO -- : Started GET "/assets/ckeditor/skins/moono/editor_gecko.css?t=DAED" for 192.168.122.1 at 2017-08-23 11:05:33 +0900
+I, [2017-08-23T11:05:33.502606 #19177]  INFO -- : Started GET "/assets/ckeditor/lang/ja.js?t=DAED" for 192.168.122.1 at 2017-08-23 11:05:33 +0900
+I, [2017-08-23T11:05:33.827980 #19177]  INFO -- : Started GET "/assets/ckeditor/styles.js?t=DAED" for 192.168.122.1 at 2017-08-23 11:05:33 +0900
+I, [2017-08-23T11:05:33.934295 #19177]  INFO -- : Started GET "/assets/ckeditor/plugins/jisxtable/plugin.js?t=DAED" for 192.168.122.1 at 2017-08-23 11:05:33 +0900
+I, [2017-08-23T11:05:34.080985 #19177]  INFO -- : Started GET "/assets/ckeditor/plugins/letterspacing/plugin.js?t=DAED" for 192.168.122.1 at 2017-08-23 11:05:34 +0900
+I, [2017-08-23T11:05:34.182311 #19177]  INFO -- : Started GET "/assets/ckeditor/plugins/jisxtabletools/plugin.js?t=DAED" for 192.168.122.1 at 2017-08-23 11:05:34 +0900
+I, [2017-08-23T11:05:34.862647 #19177]  INFO -- : Started GET "/assets/ckeditor/plugins/jisxtable/lang/ja.js?t=DAED" for 192.168.122.1 at 2017-08-23 11:05:34 +0900
+I, [2017-08-23T11:05:34.920807 #19177]  INFO -- : Started GET "/assets/ckeditor/plugins/letterspacing/lang/ja.js?t=DAED" for 192.168.122.1 at 2017-08-23 11:05:34 +0900
+I, [2017-08-23T11:05:35.166345 #19177]  INFO -- : Started GET "/assets/ckeditor/skins/moono/icons.png" for 192.168.122.1 at 2017-08-23 11:05:35 +0900
+I, [2017-08-23T11:05:35.416831 #19177]  INFO -- : Started GET "/stylesheets/doc.css" for 192.168.122.1 at 2017-08-23 11:05:35 +0900
+I, [2017-08-23T11:05:35.417897 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:05:35.418012 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/doc"}
+I, [2017-08-23T11:05:35.418789 #19177]  INFO -- :   Rendered text template (0.1ms)
+I, [2017-08-23T11:05:35.419025 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:05:35.421337 #19177]  INFO -- : Started GET "/stylesheets/bootstrap.css" for 192.168.122.1 at 2017-08-23 11:05:35 +0900
+I, [2017-08-23T11:05:35.422444 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:05:35.422717 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/bootstrap"}
+I, [2017-08-23T11:05:35.423390 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:05:35.423684 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:06:03.129985 #19177]  INFO -- : Started GET "/stylesheets/doc.css" for 192.168.122.1 at 2017-08-23 11:06:03 +0900
+I, [2017-08-23T11:06:03.131131 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:06:03.131233 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/doc"}
+I, [2017-08-23T11:06:03.131941 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:06:03.132127 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:06:03.134742 #19177]  INFO -- : Started GET "/stylesheets/bootstrap.css" for 192.168.122.1 at 2017-08-23 11:06:03 +0900
+I, [2017-08-23T11:06:03.136109 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:06:03.136334 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/bootstrap"}
+I, [2017-08-23T11:06:03.137158 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:06:03.137511 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:06:27.158690 #19177]  INFO -- : Started GET "/stylesheets/doc.css" for 192.168.122.1 at 2017-08-23 11:06:27 +0900
+I, [2017-08-23T11:06:27.159824 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:06:27.159958 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/doc"}
+I, [2017-08-23T11:06:27.160680 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:06:27.160874 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:06:27.163428 #19177]  INFO -- : Started GET "/stylesheets/bootstrap.css" for 192.168.122.1 at 2017-08-23 11:06:27 +0900
+I, [2017-08-23T11:06:27.164453 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:06:27.164557 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/bootstrap"}
+I, [2017-08-23T11:06:27.165210 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:06:27.165496 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:07:12.900186 #19177]  INFO -- : Started GET "/assets/ckeditor/plugins/jisxtable/icons/jisxtable.png?t=DAED" for 192.168.122.1 at 2017-08-23 11:07:12 +0900
+I, [2017-08-23T11:07:13.116980 #19177]  INFO -- : Started GET "/stylesheets/doc.css" for 192.168.122.1 at 2017-08-23 11:07:13 +0900
+I, [2017-08-23T11:07:13.118324 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:07:13.118622 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/doc"}
+I, [2017-08-23T11:07:13.119777 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:07:13.120015 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:07:13.159409 #19177]  INFO -- : Started GET "/stylesheets/bootstrap.css" for 192.168.122.1 at 2017-08-23 11:07:13 +0900
+I, [2017-08-23T11:07:13.160930 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:07:13.161089 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/bootstrap"}
+I, [2017-08-23T11:07:13.162083 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:07:13.162363 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:08:01.835121 #19177]  INFO -- : Started POST "/susanoo/page_contents" for 192.168.122.1 at 2017-08-23 11:08:01 +0900
+I, [2017-08-23T11:08:01.836701 #19177]  INFO -- : Processing by Susanoo::PageContentsController#create as JS
+I, [2017-08-23T11:08:01.836842 #19177]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"E0T7RCyYZEN9QKjd1RQ5MBCjN+Btfi+rD0d+tj9Ki34=", "template_id"=>"", "mode"=>"", "iframe_path"=>"/susanoo/page_contents/content?page_id=1", "page_content"=>{"content"=>"<div class=\"susanoo-editable-field\"><div class=\"editable data-type-h\"><h1>大和の トップページ</h1>\r\n</div><div class=\"editable data-type-h\"><h1>ようこそ！</h1>\r\n</div><div class=\"editable data-type-div\"><p>アメンボアカイナアイウエオ</p>\r\n</div></div>", "page_id"=>"1"}, "_save_temporarily"=>"", "commit"=>"save_temporarily"}
+W, [2017-08-23T11:08:01.880885 #19177]  WARN -- : In Rails 4.1 delete_all on associations would not fire callbacks. It means if the :dependent option is :destroy then the associated records would be deleted without loading and invoking callbacks.
+I, [2017-08-23T11:08:02.140413 #19177]  INFO -- :   Rendered susanoo/page_contents/create.js.coffee (3.5ms)
+I, [2017-08-23T11:08:02.140840 #19177]  INFO -- : Completed 200 OK in 304ms (Views: 84.4ms | ActiveRecord: 182.6ms)
+I, [2017-08-23T11:08:02.188276 #19177]  INFO -- : Started GET "/susanoo/pages/1" for 192.168.122.1 at 2017-08-23 11:08:02 +0900
+I, [2017-08-23T11:08:02.192722 #19177]  INFO -- : Processing by Susanoo::PagesController#show as HTML
+I, [2017-08-23T11:08:02.192853 #19177]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2017-08-23T11:08:02.296233 #19177]  INFO -- :   Rendered susanoo/pages/show.html.erb within layouts/application (38.1ms)
+I, [2017-08-23T11:08:02.323234 #19177]  INFO -- :   Rendered shared/_navigation.html.erb (26.0ms)
+I, [2017-08-23T11:08:02.325380 #19177]  INFO -- : Completed 200 OK in 132ms (Views: 22.3ms | ActiveRecord: 100.7ms)
+I, [2017-08-23T11:08:28.512991 #19177]  INFO -- : Started GET "/susanoo/page_contents/2/edit" for 192.168.122.1 at 2017-08-23 11:08:28 +0900
+I, [2017-08-23T11:08:28.514433 #19177]  INFO -- : Processing by Susanoo::PageContentsController#edit as HTML
+I, [2017-08-23T11:08:28.514540 #19177]  INFO -- :   Parameters: {"id"=>"2"}
+I, [2017-08-23T11:08:28.597905 #19177]  INFO -- :   Rendered susanoo/page_contents/_form.html.erb (6.8ms)
+I, [2017-08-23T11:08:28.598230 #19177]  INFO -- :   Rendered susanoo/page_contents/edit.html.erb within layouts/editor (8.1ms)
+I, [2017-08-23T11:08:28.618608 #19177]  INFO -- :   Rendered plugins/form/_page_list.html.erb (0.3ms)
+I, [2017-08-23T11:08:28.618959 #19177]  INFO -- :   Rendered plugins/form/_genre_list.html.erb (0.1ms)
+I, [2017-08-23T11:08:28.619575 #19177]  INFO -- :   Rendered plugins/form/_section_news.html.erb (0.3ms)
+I, [2017-08-23T11:08:28.620242 #19177]  INFO -- :   Rendered plugins/form/_section_news_by_path.html.erb (0.4ms)
+I, [2017-08-23T11:08:28.620917 #19177]  INFO -- :   Rendered plugins/form/_emergency.html.erb (0.4ms)
+I, [2017-08-23T11:08:28.621299 #19177]  INFO -- :   Rendered plugins/form/_genre_down_list.html.erb (0.1ms)
+I, [2017-08-23T11:08:28.623213 #19177]  INFO -- :   Rendered plugins/form/_genre_news_list.html.erb (1.0ms)
+I, [2017-08-23T11:08:28.624204 #19177]  INFO -- :   Rendered plugins/form/_genre_news_list_truncate.html.erb (0.4ms)
+I, [2017-08-23T11:08:28.624619 #19177]  INFO -- :   Rendered plugins/form/_section.html.erb (0.1ms)
+I, [2017-08-23T11:08:28.624907 #19177]  INFO -- :   Rendered plugins/form/_section_top_list.html.erb (0.1ms)
+I, [2017-08-23T11:08:28.625402 #19177]  INFO -- :   Rendered plugins/form/_sitemap.html.erb (0.2ms)
+I, [2017-08-23T11:08:28.625728 #19177]  INFO -- :   Rendered plugins/form/_sub_genre_list.html.erb (0.1ms)
+I, [2017-08-23T11:08:28.626609 #19177]  INFO -- :   Rendered plugins/form/_counter.html.erb (0.7ms)
+I, [2017-08-23T11:08:28.627242 #19177]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_calendar_calendar.html.erb (0.3ms)
+I, [2017-08-23T11:08:28.628002 #19177]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_calendar_pickup.html.erb (0.4ms)
+I, [2017-08-23T11:08:28.651683 #19177]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_page_list.html.erb (23.4ms)
+I, [2017-08-23T11:08:28.653601 #19177]  INFO -- : Completed 200 OK in 139ms (Views: 64.9ms | ActiveRecord: 59.3ms)
+I, [2017-08-23T11:08:29.711265 #19177]  INFO -- : Started GET "/susanoo/page_contents/content?id=2&page_id=1" for 192.168.122.1 at 2017-08-23 11:08:29 +0900
+I, [2017-08-23T11:08:29.712934 #19177]  INFO -- : Processing by Susanoo::PageContentsController#content as HTML
+I, [2017-08-23T11:08:29.713055 #19177]  INFO -- :   Parameters: {"id"=>"2", "page_id"=>"1"}
+I, [2017-08-23T11:08:29.828513 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header.html.erb (38.9ms)
+I, [2017-08-23T11:08:29.830530 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header_sub.html.erb (1.5ms)
+I, [2017-08-23T11:08:29.832881 #19177]  INFO -- :   Rendered inline template (0.4ms)
+I, [2017-08-23T11:08:29.833203 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_content.html.erb (1.2ms)
+I, [2017-08-23T11:08:29.834502 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/_body.html.erb (3.5ms)
+I, [2017-08-23T11:08:29.835446 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_footer.html.erb (0.6ms)
+I, [2017-08-23T11:08:29.835676 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/show.html.erb (46.2ms)
+I, [2017-08-23T11:08:29.835950 #19177]  INFO -- : Completed 200 OK in 123ms (Views: 15.3ms | ActiveRecord: 95.7ms)
+I, [2017-08-23T11:08:30.051802 #19177]  INFO -- : Started GET "/stylesheets/doc.css" for 192.168.122.1 at 2017-08-23 11:08:30 +0900
+I, [2017-08-23T11:08:30.053105 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:08:30.053219 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/doc"}
+I, [2017-08-23T11:08:30.054480 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:08:30.055812 #19177]  INFO -- : Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:08:30.104084 #19177]  INFO -- : Started GET "/stylesheets/bootstrap.css" for 192.168.122.1 at 2017-08-23 11:08:30 +0900
+I, [2017-08-23T11:08:30.105503 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:08:30.105640 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/bootstrap"}
+I, [2017-08-23T11:08:30.106496 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:08:30.106716 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:08:37.055053 #19177]  INFO -- : Started GET "/susanoo/pages/1/edit" for 192.168.122.1 at 2017-08-23 11:08:37 +0900
+I, [2017-08-23T11:08:37.056717 #19177]  INFO -- : Processing by Susanoo::PagesController#edit as HTML
+I, [2017-08-23T11:08:37.056830 #19177]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2017-08-23T11:08:37.098592 #19177]  INFO -- :   Rendered susanoo/pages/edit.html.erb within layouts/application (3.1ms)
+I, [2017-08-23T11:08:37.123870 #19177]  INFO -- :   Rendered shared/_navigation.html.erb (24.4ms)
+I, [2017-08-23T11:08:37.125273 #19177]  INFO -- : Completed 200 OK in 68ms (Views: 10.2ms | ActiveRecord: 53.2ms)
+I, [2017-08-23T11:09:01.210690 #19177]  INFO -- : Started PATCH "/susanoo/pages/1" for 192.168.122.1 at 2017-08-23 11:09:01 +0900
+I, [2017-08-23T11:09:01.212083 #19177]  INFO -- : Processing by Susanoo::PagesController#update as HTML
+I, [2017-08-23T11:09:01.212214 #19177]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"E0T7RCyYZEN9QKjd1RQ5MBCjN+Btfi+rD0d+tj9Ki34=", "page"=>{"title"=>"大和の部屋"}, "commit"=>"保存", "id"=>"1"}
+I, [2017-08-23T11:09:01.282102 #19177]  INFO -- : Redirected to http://192.168.122.1:8000/susanoo/pages/1
+I, [2017-08-23T11:09:01.282695 #19177]  INFO -- : Completed 302 Found in 70ms (ActiveRecord: 55.5ms)
+I, [2017-08-23T11:09:01.324867 #19177]  INFO -- : Started GET "/susanoo/pages/1" for 192.168.122.1 at 2017-08-23 11:09:01 +0900
+I, [2017-08-23T11:09:01.325957 #19177]  INFO -- : Processing by Susanoo::PagesController#show as HTML
+I, [2017-08-23T11:09:01.326170 #19177]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2017-08-23T11:09:01.441480 #19177]  INFO -- :   Rendered susanoo/pages/show.html.erb within layouts/application (38.6ms)
+I, [2017-08-23T11:09:01.464308 #19177]  INFO -- :   Rendered shared/_navigation.html.erb (21.8ms)
+I, [2017-08-23T11:09:01.466319 #19177]  INFO -- : Completed 200 OK in 140ms (Views: 53.1ms | ActiveRecord: 75.3ms)
+I, [2017-08-23T11:09:07.568756 #19177]  INFO -- : Started GET "/susanoo/page_contents/2/edit" for 192.168.122.1 at 2017-08-23 11:09:07 +0900
+I, [2017-08-23T11:09:07.570516 #19177]  INFO -- : Processing by Susanoo::PageContentsController#edit as HTML
+I, [2017-08-23T11:09:07.570705 #19177]  INFO -- :   Parameters: {"id"=>"2"}
+I, [2017-08-23T11:09:07.623244 #19177]  INFO -- :   Rendered susanoo/page_contents/_form.html.erb (6.7ms)
+I, [2017-08-23T11:09:07.623444 #19177]  INFO -- :   Rendered susanoo/page_contents/edit.html.erb within layouts/editor (7.2ms)
+I, [2017-08-23T11:09:07.624931 #19177]  INFO -- :   Rendered plugins/form/_page_list.html.erb (0.2ms)
+I, [2017-08-23T11:09:07.625278 #19177]  INFO -- :   Rendered plugins/form/_genre_list.html.erb (0.1ms)
+I, [2017-08-23T11:09:07.625739 #19177]  INFO -- :   Rendered plugins/form/_section_news.html.erb (0.3ms)
+I, [2017-08-23T11:09:07.647643 #19177]  INFO -- :   Rendered plugins/form/_section_news_by_path.html.erb (0.6ms)
+I, [2017-08-23T11:09:07.648377 #19177]  INFO -- :   Rendered plugins/form/_emergency.html.erb (0.3ms)
+I, [2017-08-23T11:09:07.648788 #19177]  INFO -- :   Rendered plugins/form/_genre_down_list.html.erb (0.1ms)
+I, [2017-08-23T11:09:07.649372 #19177]  INFO -- :   Rendered plugins/form/_genre_news_list.html.erb (0.3ms)
+I, [2017-08-23T11:09:07.649899 #19177]  INFO -- :   Rendered plugins/form/_genre_news_list_truncate.html.erb (0.3ms)
+I, [2017-08-23T11:09:07.650156 #19177]  INFO -- :   Rendered plugins/form/_section.html.erb (0.1ms)
+I, [2017-08-23T11:09:07.650530 #19177]  INFO -- :   Rendered plugins/form/_section_top_list.html.erb (0.1ms)
+I, [2017-08-23T11:09:07.650937 #19177]  INFO -- :   Rendered plugins/form/_sitemap.html.erb (0.2ms)
+I, [2017-08-23T11:09:07.651276 #19177]  INFO -- :   Rendered plugins/form/_sub_genre_list.html.erb (0.1ms)
+I, [2017-08-23T11:09:07.652032 #19177]  INFO -- :   Rendered plugins/form/_counter.html.erb (0.5ms)
+I, [2017-08-23T11:09:07.652700 #19177]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_calendar_calendar.html.erb (0.3ms)
+I, [2017-08-23T11:09:07.653471 #19177]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_calendar_pickup.html.erb (0.5ms)
+I, [2017-08-23T11:09:07.654053 #19177]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_page_list.html.erb (0.3ms)
+I, [2017-08-23T11:09:07.655836 #19177]  INFO -- : Completed 200 OK in 85ms (Views: 40.2ms | ActiveRecord: 32.1ms)
+I, [2017-08-23T11:09:08.607217 #19177]  INFO -- : Started GET "/susanoo/page_contents/content?id=2&page_id=1" for 192.168.122.1 at 2017-08-23 11:09:08 +0900
+I, [2017-08-23T11:09:08.608667 #19177]  INFO -- : Processing by Susanoo::PageContentsController#content as HTML
+I, [2017-08-23T11:09:08.608880 #19177]  INFO -- :   Parameters: {"id"=>"2", "page_id"=>"1"}
+I, [2017-08-23T11:09:08.663995 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header.html.erb (18.6ms)
+I, [2017-08-23T11:09:08.665701 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header_sub.html.erb (1.2ms)
+I, [2017-08-23T11:09:08.667359 #19177]  INFO -- :   Rendered inline template (0.4ms)
+I, [2017-08-23T11:09:08.667534 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_content.html.erb (0.8ms)
+I, [2017-08-23T11:09:08.672342 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/_body.html.erb (6.3ms)
+I, [2017-08-23T11:09:08.673299 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_footer.html.erb (0.6ms)
+I, [2017-08-23T11:09:08.673435 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/show.html.erb (28.3ms)
+I, [2017-08-23T11:09:08.673629 #19177]  INFO -- : Completed 200 OK in 65ms (Views: 15.2ms | ActiveRecord: 42.2ms)
+I, [2017-08-23T11:09:08.897588 #19177]  INFO -- : Started GET "/stylesheets/doc.css" for 192.168.122.1 at 2017-08-23 11:09:08 +0900
+I, [2017-08-23T11:09:08.898820 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:09:08.898970 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/doc"}
+I, [2017-08-23T11:09:08.899811 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:09:08.900032 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:09:08.950552 #19177]  INFO -- : Started GET "/stylesheets/bootstrap.css" for 192.168.122.1 at 2017-08-23 11:09:08 +0900
+I, [2017-08-23T11:09:08.951878 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:09:08.951994 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/bootstrap"}
+I, [2017-08-23T11:09:08.952846 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:09:08.953034 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:09:21.082679 #19177]  INFO -- : Started GET "/stylesheets/doc.css" for 192.168.122.1 at 2017-08-23 11:09:21 +0900
+I, [2017-08-23T11:09:21.084251 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:09:21.084388 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/doc"}
+I, [2017-08-23T11:09:21.085193 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:09:21.085402 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:09:21.090025 #19177]  INFO -- : Started GET "/stylesheets/bootstrap.css" for 192.168.122.1 at 2017-08-23 11:09:21 +0900
+I, [2017-08-23T11:09:21.091260 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:09:21.091386 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/bootstrap"}
+I, [2017-08-23T11:09:21.092152 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:09:21.092354 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:10:11.599261 #19177]  INFO -- : Started PATCH "/susanoo/page_contents/2" for 192.168.122.1 at 2017-08-23 11:10:11 +0900
+I, [2017-08-23T11:10:11.601011 #19177]  INFO -- : Processing by Susanoo::PageContentsController#update as JS
+I, [2017-08-23T11:10:11.601147 #19177]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"E0T7RCyYZEN9QKjd1RQ5MBCjN+Btfi+rD0d+tj9Ki34=", "template_id"=>"", "mode"=>"", "iframe_path"=>"/susanoo/page_contents/content?id=2&page_id=1", "page_content"=>{"content"=>"<div class=\"susanoo-editable-field\"><div class=\"editable data-type-h\"><h1>大和の部屋</h1>\r\n</div><div class=\"editable data-type-h\"><h1>ようこそ！</h1></div><div class=\"editable data-type-div\"><p>アメンボアカイナアイウエオ</p></div></div>", "page_id"=>"1"}, "_save_temporarily"=>"", "commit"=>"save_temporarily", "id"=>"2"}
+W, [2017-08-23T11:10:11.652219 #19177]  WARN -- : In Rails 4.1 delete_all on associations would not fire callbacks. It means if the :dependent option is :destroy then the associated records would be deleted without loading and invoking callbacks.
+I, [2017-08-23T11:10:11.719151 #19177]  INFO -- :   Rendered susanoo/page_contents/create.js.coffee (2.7ms)
+I, [2017-08-23T11:10:11.719442 #19177]  INFO -- : Completed 200 OK in 118ms (Views: 4.0ms | ActiveRecord: 93.7ms)
+I, [2017-08-23T11:10:11.831983 #19177]  INFO -- : Started GET "/susanoo/pages/1" for 192.168.122.1 at 2017-08-23 11:10:11 +0900
+I, [2017-08-23T11:10:11.833263 #19177]  INFO -- : Processing by Susanoo::PagesController#show as HTML
+I, [2017-08-23T11:10:11.833363 #19177]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2017-08-23T11:10:11.951726 #19177]  INFO -- :   Rendered susanoo/pages/show.html.erb within layouts/application (60.0ms)
+I, [2017-08-23T11:10:11.979223 #19177]  INFO -- :   Rendered shared/_navigation.html.erb (26.6ms)
+I, [2017-08-23T11:10:11.981126 #19177]  INFO -- : Completed 200 OK in 147ms (Views: 44.8ms | ActiveRecord: 93.8ms)
+I, [2017-08-23T11:10:21.100092 #19177]  INFO -- : Started GET "/susanoo/page_contents/2/edit" for 192.168.122.1 at 2017-08-23 11:10:21 +0900
+I, [2017-08-23T11:10:21.101508 #19177]  INFO -- : Processing by Susanoo::PageContentsController#edit as HTML
+I, [2017-08-23T11:10:21.101624 #19177]  INFO -- :   Parameters: {"id"=>"2"}
+I, [2017-08-23T11:10:21.189930 #19177]  INFO -- :   Rendered susanoo/page_contents/_form.html.erb (5.7ms)
+I, [2017-08-23T11:10:21.190132 #19177]  INFO -- :   Rendered susanoo/page_contents/edit.html.erb within layouts/editor (6.1ms)
+I, [2017-08-23T11:10:21.192021 #19177]  INFO -- :   Rendered plugins/form/_page_list.html.erb (0.2ms)
+I, [2017-08-23T11:10:21.192438 #19177]  INFO -- :   Rendered plugins/form/_genre_list.html.erb (0.2ms)
+I, [2017-08-23T11:10:21.192960 #19177]  INFO -- :   Rendered plugins/form/_section_news.html.erb (0.3ms)
+I, [2017-08-23T11:10:21.229871 #19177]  INFO -- :   Rendered plugins/form/_section_news_by_path.html.erb (36.6ms)
+I, [2017-08-23T11:10:21.230828 #19177]  INFO -- :   Rendered plugins/form/_emergency.html.erb (0.6ms)
+I, [2017-08-23T11:10:21.231477 #19177]  INFO -- :   Rendered plugins/form/_genre_down_list.html.erb (0.2ms)
+I, [2017-08-23T11:10:21.232083 #19177]  INFO -- :   Rendered plugins/form/_genre_news_list.html.erb (0.4ms)
+I, [2017-08-23T11:10:21.232917 #19177]  INFO -- :   Rendered plugins/form/_genre_news_list_truncate.html.erb (0.6ms)
+I, [2017-08-23T11:10:21.233230 #19177]  INFO -- :   Rendered plugins/form/_section.html.erb (0.1ms)
+I, [2017-08-23T11:10:21.233764 #19177]  INFO -- :   Rendered plugins/form/_section_top_list.html.erb (0.1ms)
+I, [2017-08-23T11:10:21.234338 #19177]  INFO -- :   Rendered plugins/form/_sitemap.html.erb (0.2ms)
+I, [2017-08-23T11:10:21.234834 #19177]  INFO -- :   Rendered plugins/form/_sub_genre_list.html.erb (0.1ms)
+I, [2017-08-23T11:10:21.235739 #19177]  INFO -- :   Rendered plugins/form/_counter.html.erb (0.6ms)
+I, [2017-08-23T11:10:21.236588 #19177]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_calendar_calendar.html.erb (0.5ms)
+I, [2017-08-23T11:10:21.237323 #19177]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_calendar_pickup.html.erb (0.3ms)
+I, [2017-08-23T11:10:21.237826 #19177]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_page_list.html.erb (0.2ms)
+I, [2017-08-23T11:10:21.246865 #19177]  INFO -- : Completed 200 OK in 145ms (Views: 63.0ms | ActiveRecord: 69.8ms)
+I, [2017-08-23T11:10:22.105461 #19177]  INFO -- : Started GET "/susanoo/page_contents/content?id=2&page_id=1" for 192.168.122.1 at 2017-08-23 11:10:22 +0900
+I, [2017-08-23T11:10:22.106745 #19177]  INFO -- : Processing by Susanoo::PageContentsController#content as HTML
+I, [2017-08-23T11:10:22.106838 #19177]  INFO -- :   Parameters: {"id"=>"2", "page_id"=>"1"}
+I, [2017-08-23T11:10:22.176848 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header.html.erb (36.2ms)
+I, [2017-08-23T11:10:22.178466 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header_sub.html.erb (1.3ms)
+I, [2017-08-23T11:10:22.180035 #19177]  INFO -- :   Rendered inline template (0.4ms)
+I, [2017-08-23T11:10:22.180217 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_content.html.erb (0.8ms)
+I, [2017-08-23T11:10:22.181367 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/_body.html.erb (2.5ms)
+I, [2017-08-23T11:10:22.182208 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_footer.html.erb (0.5ms)
+I, [2017-08-23T11:10:22.182328 #19177]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/show.html.erb (42.0ms)
+I, [2017-08-23T11:10:22.182644 #19177]  INFO -- : Completed 200 OK in 76ms (Views: 10.8ms | ActiveRecord: 57.9ms)
+I, [2017-08-23T11:10:22.499143 #19177]  INFO -- : Started GET "/stylesheets/doc.css" for 192.168.122.1 at 2017-08-23 11:10:22 +0900
+I, [2017-08-23T11:10:22.500395 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:10:22.500500 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/doc"}
+I, [2017-08-23T11:10:22.501190 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:10:22.501494 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:10:22.541379 #19177]  INFO -- : Started GET "/stylesheets/bootstrap.css" for 192.168.122.1 at 2017-08-23 11:10:22 +0900
+I, [2017-08-23T11:10:22.542394 #19177]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:10:22.542506 #19177]  INFO -- :   Parameters: {"path"=>"stylesheets/bootstrap"}
+I, [2017-08-23T11:10:22.543108 #19177]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:10:22.543347 #19177]  INFO -- : Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:12:24.704145 #19177]  INFO -- : Started PATCH "/susanoo/page_contents/2" for 192.168.122.1 at 2017-08-23 11:12:24 +0900
+I, [2017-08-23T11:12:24.705473 #19177]  INFO -- : Processing by Susanoo::PageContentsController#update as JS
+I, [2017-08-23T11:12:24.705609 #19177]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"E0T7RCyYZEN9QKjd1RQ5MBCjN+Btfi+rD0d+tj9Ki34=", "template_id"=>"", "mode"=>"", "iframe_path"=>"/susanoo/page_contents/content?id=2&page_id=1", "page_content"=>{"content"=>"<div class=\"susanoo-editable-field\"><div class=\"editable data-type-h\"><h1>大和の部屋</h1></div><div class=\"editable data-type-h\"><h1>ようこそ！</h1></div><div class=\"editable data-type-div\"><p>アメンボアカイナアイウエオ</p></div></div>", "page_id"=>"1"}, "_save_temporarily"=>"", "commit"=>"save_temporarily", "id"=>"2"}
+W, [2017-08-23T11:12:24.734585 #19177]  WARN -- : In Rails 4.1 delete_all on associations would not fire callbacks. It means if the :dependent option is :destroy then the associated records would be deleted without loading and invoking callbacks.
+I, [2017-08-23T11:12:24.790276 #19177]  INFO -- :   Rendered susanoo/page_contents/create.js.coffee (1.6ms)
+I, [2017-08-23T11:12:24.790637 #19177]  INFO -- : Completed 200 OK in 85ms (Views: 2.8ms | ActiveRecord: 63.4ms)
+I, [2017-08-23T11:12:24.870171 #19177]  INFO -- : Started GET "/susanoo/pages/1" for 192.168.122.1 at 2017-08-23 11:12:24 +0900
+I, [2017-08-23T11:12:24.871297 #19177]  INFO -- : Processing by Susanoo::PagesController#show as HTML
+I, [2017-08-23T11:12:24.871396 #19177]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2017-08-23T11:12:25.001312 #19177]  INFO -- :   Rendered susanoo/pages/show.html.erb within layouts/application (85.7ms)
+I, [2017-08-23T11:12:25.043547 #19177]  INFO -- :   Rendered shared/_navigation.html.erb (39.0ms)
+I, [2017-08-23T11:12:25.045469 #19177]  INFO -- : Completed 200 OK in 174ms (Views: 52.4ms | ActiveRecord: 113.1ms)
+I, [2017-08-23T11:47:58.878918 #22422]  INFO -- : Started GET "/susanoo/" for 192.168.122.1 at 2017-08-23 11:47:58 +0900
+I, [2017-08-23T11:47:59.883308 #22422]  INFO -- : Processing by Susanoo::UsersController#login as HTML
+I, [2017-08-23T11:48:00.070619 #22422]  INFO -- :   Rendered shared/infos/_index.html.erb (2.4ms)
+I, [2017-08-23T11:48:00.070943 #22422]  INFO -- :   Rendered susanoo/users/login.html.erb within layouts/application (112.6ms)
+I, [2017-08-23T11:48:00.139137 #22422]  INFO -- :   Rendered shared/_navigation.html.erb (5.8ms)
+I, [2017-08-23T11:48:00.186934 #22422]  INFO -- : Completed 200 OK in 303ms (Views: 247.3ms | ActiveRecord: 50.0ms)
+I, [2017-08-23T11:48:01.756641 #22422]  INFO -- : Started GET "/favicon.ico" for 192.168.122.1 at 2017-08-23 11:48:01 +0900
+I, [2017-08-23T11:48:01.762566 #22422]  INFO -- : Processing by Susanoo::VisitorsController#view as 
+I, [2017-08-23T11:48:01.762800 #22422]  INFO -- :   Parameters: {"path"=>"favicon"}
+I, [2017-08-23T11:48:01.854419 #22422]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/not_found.html.erb (1.0ms)
+I, [2017-08-23T11:48:01.855161 #22422]  INFO -- : Completed 404 Not Found in 92ms (Views: 35.0ms | ActiveRecord: 7.8ms)
+I, [2017-08-23T11:48:45.763791 #22422]  INFO -- : Started POST "/susanoo/users/authenticate" for 192.168.122.1 at 2017-08-23 11:48:45 +0900
+I, [2017-08-23T11:48:45.768778 #22422]  INFO -- : Processing by Susanoo::UsersController#authenticate as HTML
+I, [2017-08-23T11:48:45.768995 #22422]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"V+ZJwzTlFk3lXV+P7hR6AghIEsFQykzJpUp8iq3gvYo=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+I, [2017-08-23T11:48:45.912460 #22422]  INFO -- : Redirected to http://192.168.122.1:8000/susanoo/dashboards
+I, [2017-08-23T11:48:45.912871 #22422]  INFO -- : Completed 302 Found in 144ms (ActiveRecord: 74.1ms)
+I, [2017-08-23T11:48:46.021210 #22422]  INFO -- : Started GET "/susanoo/dashboards" for 192.168.122.1 at 2017-08-23 11:48:46 +0900
+I, [2017-08-23T11:48:46.025941 #22422]  INFO -- : Processing by Susanoo::DashboardsController#index as HTML
+I, [2017-08-23T11:48:46.123862 #22422]  INFO -- :   Rendered shared/infos/_index.html.erb (0.9ms)
+I, [2017-08-23T11:48:46.124148 #22422]  INFO -- :   Rendered susanoo/dashboards/index.html.erb within layouts/application (27.1ms)
+I, [2017-08-23T11:48:46.204092 #22422]  INFO -- :   Rendered shared/_navigation.html.erb (59.3ms)
+I, [2017-08-23T11:48:46.238343 #22422]  INFO -- : Completed 200 OK in 212ms (Views: 103.3ms | ActiveRecord: 66.3ms)
+I, [2017-08-23T11:48:49.878028 #22422]  INFO -- : Started GET "/susanoo/pages" for 192.168.122.1 at 2017-08-23 11:48:49 +0900
+I, [2017-08-23T11:48:49.884630 #22422]  INFO -- : Processing by Susanoo::PagesController#index as HTML
+I, [2017-08-23T11:48:50.294872 #22422]  INFO -- :   Rendered susanoo/pages/_page_list.html.erb (231.0ms)
+I, [2017-08-23T11:48:50.295054 #22422]  INFO -- :   Rendered susanoo/pages/_pages.html.erb (296.4ms)
+I, [2017-08-23T11:48:50.295966 #22422]  INFO -- :   Rendered susanoo/pages/index.html.erb within layouts/explore (300.3ms)
+I, [2017-08-23T11:48:50.347223 #22422]  INFO -- :   Rendered shared/_navigation.html.erb (14.4ms)
+I, [2017-08-23T11:48:50.376520 #22422]  INFO -- : Completed 200 OK in 491ms (Views: 323.0ms | ActiveRecord: 107.2ms)
+I, [2017-08-23T11:48:55.803401 #22422]  INFO -- : Started GET "/susanoo/pages/1" for 192.168.122.1 at 2017-08-23 11:48:55 +0900
+I, [2017-08-23T11:48:55.807281 #22422]  INFO -- : Processing by Susanoo::PagesController#show as HTML
+I, [2017-08-23T11:48:55.807395 #22422]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2017-08-23T11:48:55.978838 #22422]  INFO -- :   Rendered susanoo/pages/show.html.erb within layouts/application (107.2ms)
+I, [2017-08-23T11:48:56.000773 #22422]  INFO -- :   Rendered shared/_navigation.html.erb (20.6ms)
+I, [2017-08-23T11:48:56.003340 #22422]  INFO -- : Completed 200 OK in 196ms (Views: 90.2ms | ActiveRecord: 91.1ms)
+I, [2017-08-23T11:48:59.693674 #22422]  INFO -- : Started GET "/susanoo/page_contents/2/edit" for 192.168.122.1 at 2017-08-23 11:48:59 +0900
+I, [2017-08-23T11:48:59.699670 #22422]  INFO -- : Processing by Susanoo::PageContentsController#edit as HTML
+I, [2017-08-23T11:48:59.699836 #22422]  INFO -- :   Parameters: {"id"=>"2"}
+I, [2017-08-23T11:48:59.916990 #22422]  INFO -- :   Rendered susanoo/page_contents/_form.html.erb (44.9ms)
+I, [2017-08-23T11:48:59.917288 #22422]  INFO -- :   Rendered susanoo/page_contents/edit.html.erb within layouts/editor (52.2ms)
+I, [2017-08-23T11:48:59.999089 #22422]  INFO -- :   Rendered plugins/form/_page_list.html.erb (1.2ms)
+I, [2017-08-23T11:49:00.002688 #22422]  INFO -- :   Rendered plugins/form/_genre_list.html.erb (0.9ms)
+I, [2017-08-23T11:49:00.012224 #22422]  INFO -- :   Rendered plugins/form/_section_news.html.erb (1.9ms)
+I, [2017-08-23T11:49:00.020435 #22422]  INFO -- :   Rendered plugins/form/_section_news_by_path.html.erb (2.3ms)
+I, [2017-08-23T11:49:00.099979 #22422]  INFO -- :   Rendered plugins/form/_emergency.html.erb (2.0ms)
+I, [2017-08-23T11:49:00.107037 #22422]  INFO -- :   Rendered plugins/form/_genre_down_list.html.erb (1.1ms)
+I, [2017-08-23T11:49:00.113978 #22422]  INFO -- :   Rendered plugins/form/_genre_news_list.html.erb (2.4ms)
+I, [2017-08-23T11:49:00.128876 #22422]  INFO -- :   Rendered plugins/form/_genre_news_list_truncate.html.erb (2.2ms)
+I, [2017-08-23T11:49:00.140847 #22422]  INFO -- :   Rendered plugins/form/_section.html.erb (0.9ms)
+I, [2017-08-23T11:49:00.155356 #22422]  INFO -- :   Rendered plugins/form/_section_top_list.html.erb (0.7ms)
+I, [2017-08-23T11:49:00.182355 #22422]  INFO -- :   Rendered plugins/form/_sitemap.html.erb (2.1ms)
+I, [2017-08-23T11:49:00.195319 #22422]  INFO -- :   Rendered plugins/form/_sub_genre_list.html.erb (2.0ms)
+I, [2017-08-23T11:49:00.200951 #22422]  INFO -- :   Rendered plugins/form/_counter.html.erb (1.9ms)
+I, [2017-08-23T11:49:00.214993 #22422]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_calendar_calendar.html.erb (1.5ms)
+I, [2017-08-23T11:49:00.241249 #22422]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_calendar_pickup.html.erb (1.4ms)
+I, [2017-08-23T11:49:00.248765 #22422]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_page_list.html.erb (1.6ms)
+I, [2017-08-23T11:49:00.325858 #22422]  INFO -- : Completed 200 OK in 626ms (Views: 471.3ms | ActiveRecord: 73.3ms)
+I, [2017-08-23T11:49:01.922946 #22422]  INFO -- : Started GET "/susanoo/page_contents/content?id=2&page_id=1" for 192.168.122.1 at 2017-08-23 11:49:01 +0900
+I, [2017-08-23T11:49:01.928651 #22422]  INFO -- : Processing by Susanoo::PageContentsController#content as HTML
+I, [2017-08-23T11:49:01.928853 #22422]  INFO -- :   Parameters: {"id"=>"2", "page_id"=>"1"}
+I, [2017-08-23T11:49:02.102141 #22422]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header.html.erb (62.9ms)
+I, [2017-08-23T11:49:02.112137 #22422]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header_sub.html.erb (4.0ms)
+I, [2017-08-23T11:49:02.153643 #22422]  INFO -- :   Rendered inline template (0.4ms)
+I, [2017-08-23T11:49:02.154041 #22422]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_content.html.erb (2.1ms)
+I, [2017-08-23T11:49:02.156940 #22422]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/_body.html.erb (16.6ms)
+I, [2017-08-23T11:49:02.185479 #22422]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_footer.html.erb (1.8ms)
+I, [2017-08-23T11:49:02.185845 #22422]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/show.html.erb (151.8ms)
+I, [2017-08-23T11:49:02.186303 #22422]  INFO -- : Completed 200 OK in 257ms (Views: 105.0ms | ActiveRecord: 99.8ms)
+I, [2017-08-23T11:49:02.420840 #22422]  INFO -- : Started GET "/stylesheets/doc.css" for 192.168.122.1 at 2017-08-23 11:49:02 +0900
+I, [2017-08-23T11:49:02.446237 #22422]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:49:02.446351 #22422]  INFO -- :   Parameters: {"path"=>"stylesheets/doc"}
+I, [2017-08-23T11:49:02.447566 #22422]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:49:02.447943 #22422]  INFO -- : Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:49:02.506536 #22422]  INFO -- : Started GET "/stylesheets/bootstrap.css" for 192.168.122.1 at 2017-08-23 11:49:02 +0900
+I, [2017-08-23T11:49:02.510253 #22422]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:49:02.510422 #22422]  INFO -- :   Parameters: {"path"=>"stylesheets/bootstrap"}
+I, [2017-08-23T11:49:02.511636 #22422]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:49:02.511977 #22422]  INFO -- : Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:49:09.886524 #22422]  INFO -- : Started PATCH "/susanoo/page_contents/2" for 192.168.122.1 at 2017-08-23 11:49:09 +0900
+I, [2017-08-23T11:49:09.888805 #22422]  INFO -- : Processing by Susanoo::PageContentsController#update as JS
+I, [2017-08-23T11:49:09.889022 #22422]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"V+ZJwzTlFk3lXV+P7hR6AghIEsFQykzJpUp8iq3gvYo=", "template_id"=>"", "mode"=>"", "iframe_path"=>"/susanoo/page_contents/content?id=2&page_id=1", "page_content"=>{"content"=>"<div class=\"susanoo-editable-field\"><div class=\"editable data-type-h\"><h1>大和の部屋</h1></div><div class=\"editable data-type-h\"><h1>ようこそ！</h1></div><div class=\"editable data-type-div\"><p>アメンボアカイナアイウエオ</p></div></div>", "page_id"=>"1"}, "_save_temporarily"=>"", "commit"=>"save_temporarily", "id"=>"2"}
+W, [2017-08-23T11:49:09.962003 #22422]  WARN -- : In Rails 4.1 delete_all on associations would not fire callbacks. It means if the :dependent option is :destroy then the associated records would be deleted without loading and invoking callbacks.
+I, [2017-08-23T11:49:10.670994 #22422]  INFO -- :   Rendered susanoo/page_contents/create.js.coffee (474.3ms)
+I, [2017-08-23T11:49:10.671488 #22422]  INFO -- : Completed 200 OK in 782ms (Views: 545.9ms | ActiveRecord: 147.2ms)
+I, [2017-08-23T11:49:10.822758 #22422]  INFO -- : Started GET "/susanoo/pages/1" for 192.168.122.1 at 2017-08-23 11:49:10 +0900
+I, [2017-08-23T11:49:10.827146 #22422]  INFO -- : Processing by Susanoo::PagesController#show as HTML
+I, [2017-08-23T11:49:10.827543 #22422]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2017-08-23T11:49:11.089334 #22422]  INFO -- :   Rendered susanoo/pages/show.html.erb within layouts/application (144.7ms)
+I, [2017-08-23T11:49:11.143930 #22422]  INFO -- :   Rendered shared/_navigation.html.erb (52.5ms)
+I, [2017-08-23T11:49:11.145965 #22422]  INFO -- : Completed 200 OK in 318ms (Views: 123.2ms | ActiveRecord: 177.9ms)
+I, [2017-08-23T11:56:59.611672 #22422]  INFO -- : Started GET "/susanoo/page_contents/2/edit" for 192.168.122.1 at 2017-08-23 11:56:59 +0900
+I, [2017-08-23T11:56:59.613231 #22422]  INFO -- : Processing by Susanoo::PageContentsController#edit as HTML
+I, [2017-08-23T11:56:59.613349 #22422]  INFO -- :   Parameters: {"id"=>"2"}
+I, [2017-08-23T11:56:59.682268 #22422]  INFO -- :   Rendered susanoo/page_contents/_form.html.erb (6.3ms)
+I, [2017-08-23T11:56:59.682477 #22422]  INFO -- :   Rendered susanoo/page_contents/edit.html.erb within layouts/editor (6.8ms)
+I, [2017-08-23T11:56:59.684046 #22422]  INFO -- :   Rendered plugins/form/_page_list.html.erb (0.2ms)
+I, [2017-08-23T11:56:59.684596 #22422]  INFO -- :   Rendered plugins/form/_genre_list.html.erb (0.1ms)
+I, [2017-08-23T11:56:59.685269 #22422]  INFO -- :   Rendered plugins/form/_section_news.html.erb (0.3ms)
+I, [2017-08-23T11:56:59.686059 #22422]  INFO -- :   Rendered plugins/form/_section_news_by_path.html.erb (0.4ms)
+I, [2017-08-23T11:56:59.686713 #22422]  INFO -- :   Rendered plugins/form/_emergency.html.erb (0.3ms)
+I, [2017-08-23T11:56:59.686990 #22422]  INFO -- :   Rendered plugins/form/_genre_down_list.html.erb (0.1ms)
+I, [2017-08-23T11:56:59.687668 #22422]  INFO -- :   Rendered plugins/form/_genre_news_list.html.erb (0.4ms)
+I, [2017-08-23T11:56:59.716263 #22422]  INFO -- :   Rendered plugins/form/_genre_news_list_truncate.html.erb (28.2ms)
+I, [2017-08-23T11:56:59.717171 #22422]  INFO -- :   Rendered plugins/form/_section.html.erb (0.3ms)
+I, [2017-08-23T11:56:59.717940 #22422]  INFO -- :   Rendered plugins/form/_section_top_list.html.erb (0.2ms)
+I, [2017-08-23T11:56:59.720231 #22422]  INFO -- :   Rendered plugins/form/_sitemap.html.erb (1.3ms)
+I, [2017-08-23T11:56:59.720922 #22422]  INFO -- :   Rendered plugins/form/_sub_genre_list.html.erb (0.1ms)
+I, [2017-08-23T11:56:59.722641 #22422]  INFO -- :   Rendered plugins/form/_counter.html.erb (1.2ms)
+I, [2017-08-23T11:56:59.723946 #22422]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_calendar_calendar.html.erb (0.7ms)
+I, [2017-08-23T11:56:59.725250 #22422]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_calendar_pickup.html.erb (0.7ms)
+I, [2017-08-23T11:56:59.746576 #22422]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_page_list.html.erb (0.5ms)
+I, [2017-08-23T11:56:59.749842 #22422]  INFO -- : Completed 200 OK in 136ms (Views: 74.2ms | ActiveRecord: 43.2ms)
+I, [2017-08-23T11:57:01.183938 #22422]  INFO -- : Started GET "/susanoo/page_contents/content?id=2&page_id=1" for 192.168.122.1 at 2017-08-23 11:57:01 +0900
+I, [2017-08-23T11:57:01.186252 #22422]  INFO -- : Processing by Susanoo::PageContentsController#content as HTML
+I, [2017-08-23T11:57:01.186477 #22422]  INFO -- :   Parameters: {"id"=>"2", "page_id"=>"1"}
+I, [2017-08-23T11:57:01.296930 #22422]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header.html.erb (35.4ms)
+I, [2017-08-23T11:57:01.299565 #22422]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header_sub.html.erb (2.2ms)
+I, [2017-08-23T11:57:01.304782 #22422]  INFO -- :   Rendered inline template (2.2ms)
+I, [2017-08-23T11:57:01.305174 #22422]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_content.html.erb (4.2ms)
+I, [2017-08-23T11:57:01.351667 #22422]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/_body.html.erb (7.0ms)
+I, [2017-08-23T11:57:01.355662 #22422]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_footer.html.erb (1.1ms)
+I, [2017-08-23T11:57:01.355972 #22422]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/show.html.erb (94.9ms)
+I, [2017-08-23T11:57:01.356344 #22422]  INFO -- : Completed 200 OK in 170ms (Views: 68.8ms | ActiveRecord: 88.9ms)
+I, [2017-08-23T11:57:01.558540 #22422]  INFO -- : Started GET "/stylesheets/doc.css" for 192.168.122.1 at 2017-08-23 11:57:01 +0900
+I, [2017-08-23T11:57:01.560668 #22422]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:57:01.560838 #22422]  INFO -- :   Parameters: {"path"=>"stylesheets/doc"}
+I, [2017-08-23T11:57:01.562326 #22422]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:57:01.562739 #22422]  INFO -- : Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:57:01.608799 #22422]  INFO -- : Started GET "/stylesheets/bootstrap.css" for 192.168.122.1 at 2017-08-23 11:57:01 +0900
+I, [2017-08-23T11:57:01.610598 #22422]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T11:57:01.610838 #22422]  INFO -- :   Parameters: {"path"=>"stylesheets/bootstrap"}
+I, [2017-08-23T11:57:01.612174 #22422]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T11:57:01.612584 #22422]  INFO -- : Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T11:57:05.817333 #22422]  INFO -- : Started PATCH "/susanoo/page_contents/2" for 192.168.122.1 at 2017-08-23 11:57:05 +0900
+I, [2017-08-23T11:57:05.819066 #22422]  INFO -- : Processing by Susanoo::PageContentsController#update as JS
+I, [2017-08-23T11:57:05.819220 #22422]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"V+ZJwzTlFk3lXV+P7hR6AghIEsFQykzJpUp8iq3gvYo=", "template_id"=>"", "mode"=>"", "iframe_path"=>"/susanoo/page_contents/content?id=2&page_id=1", "page_content"=>{"content"=>"<div class=\"susanoo-editable-field\"><div class=\"editable data-type-h\"><h1>大和の部屋</h1></div><div class=\"editable data-type-h\"><h1>ようこそ！</h1></div><div class=\"editable data-type-div\"><p>アメンボアカイナアイウエオ</p></div></div>", "page_id"=>"1"}, "_save_temporarily"=>"", "commit"=>"save_temporarily", "id"=>"2"}
+W, [2017-08-23T11:57:05.847696 #22422]  WARN -- : In Rails 4.1 delete_all on associations would not fire callbacks. It means if the :dependent option is :destroy then the associated records would be deleted without loading and invoking callbacks.
+I, [2017-08-23T11:57:05.928146 #22422]  INFO -- :   Rendered susanoo/page_contents/create.js.coffee (2.0ms)
+I, [2017-08-23T11:57:05.928573 #22422]  INFO -- : Completed 200 OK in 109ms (Views: 3.3ms | ActiveRecord: 81.7ms)
+I, [2017-08-23T11:57:06.063298 #22422]  INFO -- : Started GET "/susanoo/pages/1" for 192.168.122.1 at 2017-08-23 11:57:06 +0900
+I, [2017-08-23T11:57:06.065591 #22422]  INFO -- : Processing by Susanoo::PagesController#show as HTML
+I, [2017-08-23T11:57:06.065782 #22422]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2017-08-23T11:57:06.250702 #22422]  INFO -- :   Rendered susanoo/pages/show.html.erb within layouts/application (98.1ms)
+I, [2017-08-23T11:57:06.275199 #22422]  INFO -- :   Rendered shared/_navigation.html.erb (22.9ms)
+I, [2017-08-23T11:57:06.277561 #22422]  INFO -- : Completed 200 OK in 211ms (Views: 53.9ms | ActiveRecord: 143.1ms)
+I, [2017-08-23T13:41:46.833171 #24701]  INFO -- : Started GET "/susanoo/" for 192.168.122.1 at 2017-08-23 13:41:46 +0900
+I, [2017-08-23T13:41:47.127917 #24701]  INFO -- : Processing by Susanoo::UsersController#login as HTML
+I, [2017-08-23T13:41:47.257377 #24701]  INFO -- :   Rendered shared/infos/_index.html.erb (1.7ms)
+I, [2017-08-23T13:41:47.257564 #24701]  INFO -- :   Rendered susanoo/users/login.html.erb within layouts/application (84.6ms)
+I, [2017-08-23T13:41:47.300607 #24701]  INFO -- :   Rendered shared/_navigation.html.erb (3.0ms)
+I, [2017-08-23T13:41:47.380559 #24701]  INFO -- : Completed 200 OK in 208ms (Views: 166.9ms | ActiveRecord: 37.3ms)
+I, [2017-08-23T13:41:49.671081 #24701]  INFO -- : Started GET "/favicon.ico" for 192.168.122.1 at 2017-08-23 13:41:49 +0900
+I, [2017-08-23T13:41:49.674539 #24701]  INFO -- : Processing by Susanoo::VisitorsController#view as 
+I, [2017-08-23T13:41:49.674652 #24701]  INFO -- :   Parameters: {"path"=>"favicon"}
+I, [2017-08-23T13:41:49.710149 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/not_found.html.erb (0.5ms)
+I, [2017-08-23T13:41:49.710467 #24701]  INFO -- : Completed 404 Not Found in 36ms (Views: 4.5ms | ActiveRecord: 25.8ms)
+I, [2017-08-23T13:41:57.531242 #24701]  INFO -- : Started POST "/susanoo/users/authenticate" for 192.168.122.1 at 2017-08-23 13:41:57 +0900
+I, [2017-08-23T13:41:57.534624 #24701]  INFO -- : Processing by Susanoo::UsersController#authenticate as HTML
+I, [2017-08-23T13:41:57.534750 #24701]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"qVoMEgxbB4O6ABUmS867CgDpRjDGwA4FpQClWGIDL40=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+I, [2017-08-23T13:41:57.612782 #24701]  INFO -- :   Rendered shared/infos/_index.html.erb (1.0ms)
+I, [2017-08-23T13:41:57.612963 #24701]  INFO -- :   Rendered susanoo/users/login.html.erb within layouts/application (18.1ms)
+I, [2017-08-23T13:41:57.647514 #24701]  INFO -- :   Rendered shared/_navigation.html.erb (0.3ms)
+I, [2017-08-23T13:41:57.653069 #24701]  INFO -- : Completed 200 OK in 118ms (Views: 48.7ms | ActiveRecord: 43.9ms)
+I, [2017-08-23T13:42:13.233800 #24701]  INFO -- : Started POST "/susanoo/users/authenticate" for 192.168.122.1 at 2017-08-23 13:42:13 +0900
+I, [2017-08-23T13:42:13.235074 #24701]  INFO -- : Processing by Susanoo::UsersController#authenticate as HTML
+I, [2017-08-23T13:42:13.235191 #24701]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"qVoMEgxbB4O6ABUmS867CgDpRjDGwA4FpQClWGIDL40=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+I, [2017-08-23T13:42:13.317083 #24701]  INFO -- : Redirected to http://192.168.122.1:8000/susanoo/dashboards
+I, [2017-08-23T13:42:13.317320 #24701]  INFO -- : Completed 302 Found in 82ms (ActiveRecord: 33.4ms)
+I, [2017-08-23T13:42:13.340015 #24701]  INFO -- : Started GET "/susanoo/dashboards" for 192.168.122.1 at 2017-08-23 13:42:13 +0900
+I, [2017-08-23T13:42:13.343405 #24701]  INFO -- : Processing by Susanoo::DashboardsController#index as HTML
+I, [2017-08-23T13:42:13.408895 #24701]  INFO -- :   Rendered shared/infos/_index.html.erb (0.6ms)
+I, [2017-08-23T13:42:13.409071 #24701]  INFO -- :   Rendered susanoo/dashboards/index.html.erb within layouts/application (6.2ms)
+I, [2017-08-23T13:42:13.465202 #24701]  INFO -- :   Rendered shared/_navigation.html.erb (14.1ms)
+I, [2017-08-23T13:42:13.471406 #24701]  INFO -- : Completed 200 OK in 128ms (Views: 72.7ms | ActiveRecord: 41.5ms)
+I, [2017-08-23T13:42:18.401765 #24701]  INFO -- : Started GET "/susanoo/pages" for 192.168.122.1 at 2017-08-23 13:42:18 +0900
+I, [2017-08-23T13:42:18.405376 #24701]  INFO -- : Processing by Susanoo::PagesController#index as HTML
+I, [2017-08-23T13:42:18.756855 #24701]  INFO -- :   Rendered susanoo/pages/_page_list.html.erb (218.8ms)
+I, [2017-08-23T13:42:18.757006 #24701]  INFO -- :   Rendered susanoo/pages/_pages.html.erb (274.8ms)
+I, [2017-08-23T13:42:18.757627 #24701]  INFO -- :   Rendered susanoo/pages/index.html.erb within layouts/explore (276.8ms)
+I, [2017-08-23T13:42:18.803853 #24701]  INFO -- :   Rendered shared/_navigation.html.erb (18.4ms)
+I, [2017-08-23T13:42:18.807309 #24701]  INFO -- : Completed 200 OK in 402ms (Views: 199.1ms | ActiveRecord: 182.7ms)
+I, [2017-08-23T13:42:23.065458 #24701]  INFO -- : Started GET "/susanoo/pages/1" for 192.168.122.1 at 2017-08-23 13:42:23 +0900
+I, [2017-08-23T13:42:23.069061 #24701]  INFO -- : Processing by Susanoo::PagesController#show as HTML
+I, [2017-08-23T13:42:23.069176 #24701]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2017-08-23T13:42:23.217197 #24701]  INFO -- :   Rendered susanoo/pages/show.html.erb within layouts/application (78.4ms)
+I, [2017-08-23T13:42:23.250172 #24701]  INFO -- :   Rendered shared/_navigation.html.erb (31.8ms)
+I, [2017-08-23T13:42:23.251754 #24701]  INFO -- : Completed 200 OK in 182ms (Views: 92.2ms | ActiveRecord: 78.1ms)
+I, [2017-08-23T13:42:32.325559 #24701]  INFO -- : Started GET "/susanoo/page_contents/2/edit" for 192.168.122.1 at 2017-08-23 13:42:32 +0900
+I, [2017-08-23T13:42:32.329134 #24701]  INFO -- : Processing by Susanoo::PageContentsController#edit as HTML
+I, [2017-08-23T13:42:32.329269 #24701]  INFO -- :   Parameters: {"id"=>"2"}
+I, [2017-08-23T13:42:32.504297 #24701]  INFO -- :   Rendered susanoo/page_contents/_form.html.erb (14.0ms)
+I, [2017-08-23T13:42:32.504483 #24701]  INFO -- :   Rendered susanoo/page_contents/edit.html.erb within layouts/editor (15.8ms)
+I, [2017-08-23T13:42:32.513202 #24701]  INFO -- :   Rendered plugins/form/_page_list.html.erb (0.9ms)
+I, [2017-08-23T13:42:32.514942 #24701]  INFO -- :   Rendered plugins/form/_genre_list.html.erb (0.6ms)
+I, [2017-08-23T13:42:32.517146 #24701]  INFO -- :   Rendered plugins/form/_section_news.html.erb (1.1ms)
+I, [2017-08-23T13:42:32.543437 #24701]  INFO -- :   Rendered plugins/form/_section_news_by_path.html.erb (25.1ms)
+I, [2017-08-23T13:42:32.545877 #24701]  INFO -- :   Rendered plugins/form/_emergency.html.erb (1.3ms)
+I, [2017-08-23T13:42:32.547639 #24701]  INFO -- :   Rendered plugins/form/_genre_down_list.html.erb (0.5ms)
+I, [2017-08-23T13:42:32.549874 #24701]  INFO -- :   Rendered plugins/form/_genre_news_list.html.erb (1.1ms)
+I, [2017-08-23T13:42:32.553351 #24701]  INFO -- :   Rendered plugins/form/_genre_news_list_truncate.html.erb (1.2ms)
+I, [2017-08-23T13:42:32.555205 #24701]  INFO -- :   Rendered plugins/form/_section.html.erb (0.6ms)
+I, [2017-08-23T13:42:32.556874 #24701]  INFO -- :   Rendered plugins/form/_section_top_list.html.erb (0.6ms)
+I, [2017-08-23T13:42:32.559054 #24701]  INFO -- :   Rendered plugins/form/_sitemap.html.erb (1.0ms)
+I, [2017-08-23T13:42:32.560788 #24701]  INFO -- :   Rendered plugins/form/_sub_genre_list.html.erb (0.6ms)
+I, [2017-08-23T13:42:32.563092 #24701]  INFO -- :   Rendered plugins/form/_counter.html.erb (1.2ms)
+I, [2017-08-23T13:42:32.589862 #24701]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_calendar_calendar.html.erb (1.4ms)
+I, [2017-08-23T13:42:32.594021 #24701]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_calendar_pickup.html.erb (1.2ms)
+I, [2017-08-23T13:42:32.597286 #24701]  INFO -- :   Rendered vendor/engines/event_calendar/app/views/plugins/form/_event_page_list.html.erb (0.9ms)
+I, [2017-08-23T13:42:32.601926 #24701]  INFO -- : Completed 200 OK in 272ms (Views: 115.2ms | ActiveRecord: 63.9ms)
+I, [2017-08-23T13:42:33.486229 #24701]  INFO -- : Started GET "/susanoo/page_contents/content?id=2&page_id=1" for 192.168.122.1 at 2017-08-23 13:42:33 +0900
+I, [2017-08-23T13:42:33.489807 #24701]  INFO -- : Processing by Susanoo::PageContentsController#content as HTML
+I, [2017-08-23T13:42:33.489913 #24701]  INFO -- :   Parameters: {"id"=>"2", "page_id"=>"1"}
+I, [2017-08-23T13:42:33.608031 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header.html.erb (40.5ms)
+I, [2017-08-23T13:42:33.611346 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header_sub.html.erb (2.0ms)
+I, [2017-08-23T13:42:33.615512 #24701]  INFO -- :   Rendered inline template (0.4ms)
+I, [2017-08-23T13:42:33.615691 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_content.html.erb (1.3ms)
+I, [2017-08-23T13:42:33.617131 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/_body.html.erb (4.9ms)
+I, [2017-08-23T13:42:33.663510 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_footer.html.erb (45.5ms)
+I, [2017-08-23T13:42:33.663658 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/show.html.erb (97.5ms)
+I, [2017-08-23T13:42:33.663909 #24701]  INFO -- : Completed 200 OK in 174ms (Views: 67.0ms | ActiveRecord: 93.8ms)
+I, [2017-08-23T13:42:33.898503 #24701]  INFO -- : Started GET "/stylesheets/doc.css" for 192.168.122.1 at 2017-08-23 13:42:33 +0900
+I, [2017-08-23T13:42:33.901824 #24701]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T13:42:33.901988 #24701]  INFO -- :   Parameters: {"path"=>"stylesheets/doc"}
+I, [2017-08-23T13:42:33.902977 #24701]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T13:42:33.903211 #24701]  INFO -- : Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T13:42:33.939284 #24701]  INFO -- : Started GET "/stylesheets/bootstrap.css" for 192.168.122.1 at 2017-08-23 13:42:33 +0900
+I, [2017-08-23T13:42:33.940424 #24701]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-23T13:42:33.940530 #24701]  INFO -- :   Parameters: {"path"=>"stylesheets/bootstrap"}
+I, [2017-08-23T13:42:33.941437 #24701]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-23T13:42:33.942455 #24701]  INFO -- : Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+I, [2017-08-23T13:43:02.059729 #24701]  INFO -- : Started POST "/susanoo/page_contents/check?mobile=false&page_id=1" for 192.168.122.1 at 2017-08-23 13:43:02 +0900
+I, [2017-08-23T13:43:02.061296 #24701]  INFO -- : Processing by Susanoo::PageContentsController#check as JS
+I, [2017-08-23T13:43:02.061416 #24701]  INFO -- :   Parameters: {"page_id"=>"1", "content"=>"<div class=\"susanoo-editable-field\"><div class=\"editable data-type-h\"><h1>大和の部屋</h1></div><div class=\"editable data-type-h\"><h1>ようこそ！</h1></div><div class=\"editable data-type-div\"><p>アメンボアカイナアイウエオ</p></div></div>", "mobile"=>"false"}
+I, [2017-08-23T13:43:02.149684 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header.html.erb (21.5ms)
+I, [2017-08-23T13:43:02.156436 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header_sub.html.erb (1.9ms)
+I, [2017-08-23T13:43:02.194819 #24701]  INFO -- :   Rendered inline template (0.3ms)
+I, [2017-08-23T13:43:02.229022 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_content.html.erb (36.3ms)
+I, [2017-08-23T13:43:02.230545 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/_body.html.erb (44.1ms)
+I, [2017-08-23T13:43:02.236402 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_footer.html.erb (1.8ms)
+I, [2017-08-23T13:43:02.236553 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/show.html.erb (117.4ms)
+E, [2017-08-23T13:43:02.303218 #24701] ERROR -- : Connection refused - connect(2) for "localhost" port 8080 : /home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/net/http.rb:879:in `initialize'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/net/http.rb:879:in `open'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/net/http.rb:879:in `block in connect'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/timeout.rb:67:in `timeout'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/net/http.rb:878:in `connect'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/net/http.rb:863:in `do_start'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/net/http.rb:852:in `start'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/net/http.rb:583:in `start'
+/home/yamato/pref-shimane-cms-master/pref-shimane-cms/lib/susanoo/accessibility/michecker.rb:18:in `send_request'
+/home/yamato/pref-shimane-cms-master/pref-shimane-cms/lib/susanoo/accessibility/michecker.rb:7:in `validate'
+/home/yamato/pref-shimane-cms-master/pref-shimane-cms/lib/susanoo/accessibility_checker.rb:37:in `run'
+/home/yamato/pref-shimane-cms-master/pref-shimane-cms/app/controllers/concerns/susanoo/page_contents_controller.rb:146:in `check'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:189:in `process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:493:in `_run__3403822412665149835__process_action__callbacks'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/etag.rb:23:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/conditionalget.rb:35:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/head.rb:11:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/jpmobile-4.0.0/lib/jpmobile/rack/mobile_carrier.rb:13:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:225:in `context'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:220:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/query_cache.rb:36:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__2697740809089241870__call__callbacks'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/rack/logger.rb:22:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/methodoverride.rb:21:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/runtime.rb:17:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/sendfile.rb:112:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/lock.rb:17:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/content_length.rb:14:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/handler/webrick.rb:60:in `service'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+I, [2017-08-23T13:43:02.596293 #24701]  INFO -- :   Rendered susanoo/page_contents/check.js.coffee (236.0ms)
+I, [2017-08-23T13:43:02.596613 #24701]  INFO -- : Completed 200 OK in 535ms (Views: 292.8ms | ActiveRecord: 31.2ms)
+I, [2017-08-23T13:43:38.461528 #24701]  INFO -- : Started POST "/susanoo/page_contents/check?mobile=false&page_id=1" for 192.168.122.1 at 2017-08-23 13:43:38 +0900
+I, [2017-08-23T13:43:38.463007 #24701]  INFO -- : Processing by Susanoo::PageContentsController#check as JS
+I, [2017-08-23T13:43:38.463129 #24701]  INFO -- :   Parameters: {"page_id"=>"1", "content"=>"<div class=\"susanoo-editable-field\"><div class=\"editable data-type-h\"><h1>大和の部屋</h1></div><div class=\"editable data-type-h\"><h1>ようこそ！</h1></div><div class=\"editable data-type-div\"><p>アメンボアカイナアイウエオ</p></div></div>", "mobile"=>"false"}
+I, [2017-08-23T13:43:38.569445 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header.html.erb (25.3ms)
+I, [2017-08-23T13:43:38.570922 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header_sub.html.erb (1.1ms)
+I, [2017-08-23T13:43:38.572477 #24701]  INFO -- :   Rendered inline template (0.4ms)
+I, [2017-08-23T13:43:38.572654 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_content.html.erb (0.9ms)
+I, [2017-08-23T13:43:38.573948 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/_body.html.erb (2.7ms)
+I, [2017-08-23T13:43:38.574898 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_footer.html.erb (0.6ms)
+I, [2017-08-23T13:43:38.575055 #24701]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/show.html.erb (31.3ms)
+E, [2017-08-23T13:43:38.596488 #24701] ERROR -- : Connection refused - connect(2) for "localhost" port 8080 : /home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/net/http.rb:879:in `initialize'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/net/http.rb:879:in `open'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/net/http.rb:879:in `block in connect'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/timeout.rb:67:in `timeout'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/net/http.rb:878:in `connect'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/net/http.rb:863:in `do_start'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/net/http.rb:852:in `start'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/net/http.rb:583:in `start'
+/home/yamato/pref-shimane-cms-master/pref-shimane-cms/lib/susanoo/accessibility/michecker.rb:18:in `send_request'
+/home/yamato/pref-shimane-cms-master/pref-shimane-cms/lib/susanoo/accessibility/michecker.rb:7:in `validate'
+/home/yamato/pref-shimane-cms-master/pref-shimane-cms/lib/susanoo/accessibility_checker.rb:37:in `run'
+/home/yamato/pref-shimane-cms-master/pref-shimane-cms/app/controllers/concerns/susanoo/page_contents_controller.rb:146:in `check'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:189:in `process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:493:in `_run__3403822412665149835__process_action__callbacks'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/etag.rb:23:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/conditionalget.rb:35:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/head.rb:11:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/jpmobile-4.0.0/lib/jpmobile/rack/mobile_carrier.rb:13:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:225:in `context'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:220:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/query_cache.rb:36:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__2697740809089241870__call__callbacks'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/rack/logger.rb:22:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/methodoverride.rb:21:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/runtime.rb:17:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/sendfile.rb:112:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/lock.rb:17:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/content_length.rb:14:in `call'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.5.5/lib/rack/handler/webrick.rb:60:in `service'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/home/yamato/.rbenv/versions/2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+I, [2017-08-23T13:43:38.599619 #24701]  INFO -- :   Rendered susanoo/page_contents/check.js.coffee (2.0ms)
+I, [2017-08-23T13:43:38.599999 #24701]  INFO -- : Completed 200 OK in 137ms (Views: 2.9ms | ActiveRecord: 91.0ms)

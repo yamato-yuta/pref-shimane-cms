@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" dir="ltr" lang="ja">
+<head>
+  <%= render partial: '/susanoo/visitors/shared/header' %>
+</head>
+<body id='allchar'>
+  <div id="wrapper">
+    <%= render partial: '/susanoo/visitors/shared/header_sub' %>
+    <%= render partial: '/susanoo/visitors/top/body' %>
+  </div><!-- end wrapper -->
+  <%= render partial: '/susanoo/visitors/shared/footer' %>
+  <% if !@page_view.edit -%>
+  <script type="text/javascript" src="/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="/js/jquery.sticky.js"></script>
+  <script type="text/javascript" src="/js/jquery.scrollTo.js"></script>
+  <script type="text/javascript" src="/js/stellar.js"></script>
+  <script type="text/javascript" src="/js/wow.min.js"></script>
+  <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="/js/nivo-lightbox.min.js"></script>
+  <script type="text/javascript" src="/js/custom.js"></script>
+  <% end -%>
+</body>
+</html>

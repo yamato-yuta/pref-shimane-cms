@@ -1,0 +1,116 @@
+# Logfile created on 2017-08-22 16:32:04 +0900 by logger.rb/44203
+I, [2017-08-22T16:32:07.304447 #4671]  INFO -- : Migrating to CreateBasicTables (1)
+I, [2017-08-22T16:32:08.139959 #4671]  INFO -- : Migrating to CreateCkeditorAssets (20130731121803)
+I, [2017-08-22T16:32:08.187063 #4671]  INFO -- : Migrating to AddColumnLatestToPageContents (20130802042505)
+I, [2017-08-22T16:32:08.260006 #4671]  INFO -- : Migrating to AddColumnDeletableToGenres (20130805020220)
+I, [2017-08-22T16:32:08.356941 #4671]  INFO -- : Migrating to AddColumnOriginalIdToPages (20130805020246)
+I, [2017-08-22T16:32:08.388024 #4671]  INFO -- : Migrating to ChangeColumnDefaultPublicToHelps (20130816045121)
+I, [2017-08-22T16:32:08.403797 #4671]  INFO -- : Migrating to CreateEngineMasters (20130819022532)
+I, [2017-08-22T16:32:08.419555 #4671]  INFO -- : Migrating to ChangeColumnDefaultNavigationToHelpCategories (20130821054123)
+I, [2017-08-22T16:32:08.444530 #4671]  INFO -- : Migrating to CreatePageTemplates (20130826030037)
+I, [2017-08-22T16:32:08.462835 #4671]  INFO -- : Migrating to AddColumnFormatToPageContents (20130909061246)
+I, [2017-08-22T16:32:08.533110 #4671]  INFO -- : Migrating to AddFeatureToSection (20131003042312)
+I, [2017-08-22T16:32:08.564044 #4671]  INFO -- : Migrating to AddSessionsTable (20140106023932)
+I, [2017-08-22T16:32:08.607060 #4671]  INFO -- : Migrating to AddColumnEditRequiredToPageContentsUnlessExists (20140327024428)
+I, [2017-08-22T16:32:08.660304 #4671]  INFO -- : Migrating to AddColumQueueToJobs (20140407075311)
+I, [2017-08-22T16:32:08.710175 #4671]  INFO -- : Migrating to AddColumnSkipAccessibilityCheckToSections (20140521043052)
+I, [2017-08-22T16:32:08.734519 #4671]  INFO -- : Migrating to AddMailAddressDomainPartInSection (20140925060728)
+I, [2017-08-22T16:32:08.753028 #4671]  INFO -- : Migrating to CreateAdvertisements (20170822073047)
+I, [2017-08-22T16:32:08.784261 #4671]  INFO -- : Migrating to CreateAdvertisementLists (20170822073048)
+I, [2017-08-22T16:32:08.810444 #4671]  INFO -- : Migrating to AddAndRenameColumnsForAttachmentInAdvertisements (20170822073049)
+I, [2017-08-22T16:32:08.829141 #4671]  INFO -- : Migrating to AddTopagesbannerColumn (20170822073050)
+I, [2017-08-22T16:32:08.837146 #4671]  INFO -- : Migrating to AddColumnBlogEnabledToGenres (20170822073051)
+I, [2017-08-22T16:32:08.890254 #4671]  INFO -- : Migrating to RemoveBlogEnabledAddBlogFolderTypeInGenres (20170822073052)
+I, [2017-08-22T16:32:08.941712 #4671]  INFO -- : Migrating to AddColumnBlogDateToPages (20170822073053)
+I, [2017-08-22T16:32:08.977099 #4671]  INFO -- : Migrating to CreateConsultManagementConsults (20170822073054)
+I, [2017-08-22T16:32:09.009919 #4671]  INFO -- : Migrating to CreateConsultManagementConsultCategories (20170822073055)
+I, [2017-08-22T16:32:09.035039 #4671]  INFO -- : Migrating to CreateConsultManagementConsultCategoryMembers (20170822073056)
+I, [2017-08-22T16:32:09.059374 #4671]  INFO -- : Migrating to AddEventFolderTypeInGenres (20170822073057)
+I, [2017-08-22T16:32:09.096581 #4671]  INFO -- : Migrating to AddEventDateInPages (20170822073058)
+I, [2017-08-22T16:32:09.117955 #4671]  INFO -- : Migrating to AddColumnEditRequiredToPageContents (20170822073059)
+I, [2017-08-22T16:55:38.245440 #5239]  INFO -- : Started GET "/" for 192.168.122.1 at 2017-08-22 16:55:38 +0900
+I, [2017-08-22T16:55:38.438991 #5239]  INFO -- : Processing by Susanoo::VisitorsController#view as HTML
+I, [2017-08-22T16:55:38.770855 #5239]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header.html.erb (85.3ms)
+I, [2017-08-22T16:55:38.774913 #5239]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header_sub.html.erb (2.1ms)
+I, [2017-08-22T16:55:38.809292 #5239]  INFO -- :   Rendered inline template (0.5ms)
+I, [2017-08-22T16:55:38.809631 #5239]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_content.html.erb (1.9ms)
+I, [2017-08-22T16:55:38.811151 #5239]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/_body.html.erb (13.6ms)
+I, [2017-08-22T16:55:38.829127 #5239]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_footer.html.erb (2.5ms)
+I, [2017-08-22T16:55:38.829272 #5239]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/show.html.erb (146.7ms)
+I, [2017-08-22T16:55:38.829680 #5239]  INFO -- : Completed 200 OK in 390ms (Views: 148.9ms | ActiveRecord: 114.5ms)
+I, [2017-08-22T16:55:38.950546 #5239]  INFO -- : Started GET "/stylesheets/doc.css" for 192.168.122.1 at 2017-08-22 16:55:38 +0900
+I, [2017-08-22T16:55:38.954741 #5239]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-22T16:55:38.954869 #5239]  INFO -- :   Parameters: {"path"=>"stylesheets/doc"}
+I, [2017-08-22T16:55:38.955854 #5239]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-22T16:55:38.956087 #5239]  INFO -- : Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+I, [2017-08-22T16:55:38.975620 #5239]  INFO -- : Started GET "/javascripts/jquery.js" for 192.168.122.1 at 2017-08-22 16:55:38 +0900
+I, [2017-08-22T16:55:38.977108 #5239]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as JS
+I, [2017-08-22T16:55:38.977232 #5239]  INFO -- :   Parameters: {"path"=>"javascripts/jquery"}
+I, [2017-08-22T16:55:38.977991 #5239]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-22T16:55:38.978258 #5239]  INFO -- : Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2017-08-22T16:55:38.982746 #5239]  INFO -- : Started GET "/stylesheets/bootstrap.css" for 192.168.122.1 at 2017-08-22 16:55:38 +0900
+I, [2017-08-22T16:55:38.983922 #5239]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-22T16:55:38.984058 #5239]  INFO -- :   Parameters: {"path"=>"stylesheets/bootstrap"}
+I, [2017-08-22T16:55:38.984883 #5239]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-22T16:55:38.985170 #5239]  INFO -- : Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+I, [2017-08-22T16:55:38.990122 #5239]  INFO -- : Started GET "/javascripts/bootstrap.js" for 192.168.122.1 at 2017-08-22 16:55:38 +0900
+I, [2017-08-22T16:55:38.991377 #5239]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as JS
+I, [2017-08-22T16:55:38.991495 #5239]  INFO -- :   Parameters: {"path"=>"javascripts/bootstrap"}
+I, [2017-08-22T16:55:38.992296 #5239]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-22T16:55:38.992537 #5239]  INFO -- : Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2017-08-22T16:55:39.191401 #5239]  INFO -- : Started GET "/favicon.ico" for 192.168.122.1 at 2017-08-22 16:55:39 +0900
+I, [2017-08-22T16:55:39.192649 #5239]  INFO -- : Processing by Susanoo::VisitorsController#view as 
+I, [2017-08-22T16:55:39.192760 #5239]  INFO -- :   Parameters: {"path"=>"favicon"}
+I, [2017-08-22T16:55:39.229763 #5239]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/not_found.html.erb (0.7ms)
+I, [2017-08-22T16:55:39.230077 #5239]  INFO -- : Completed 404 Not Found in 37ms (Views: 28.3ms | ActiveRecord: 7.6ms)
+I, [2017-08-22T16:55:39.236519 #5239]  INFO -- : Started GET "/favicon.ico" for 192.168.122.1 at 2017-08-22 16:55:39 +0900
+I, [2017-08-22T16:55:39.237663 #5239]  INFO -- : Processing by Susanoo::VisitorsController#view as 
+I, [2017-08-22T16:55:39.237773 #5239]  INFO -- :   Parameters: {"path"=>"favicon"}
+I, [2017-08-22T16:55:39.239681 #5239]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/not_found.html.erb (0.1ms)
+I, [2017-08-22T16:55:39.239926 #5239]  INFO -- : Completed 404 Not Found in 2ms (Views: 0.6ms | ActiveRecord: 0.5ms)
+I, [2017-08-22T16:58:41.531096 #5239]  INFO -- : Started GET "/susanoo/" for 192.168.122.1 at 2017-08-22 16:58:41 +0900
+I, [2017-08-22T16:58:41.535231 #5239]  INFO -- : Processing by Susanoo::UsersController#login as HTML
+I, [2017-08-22T16:58:41.693248 #5239]  INFO -- :   Rendered shared/infos/_index.html.erb (1.7ms)
+I, [2017-08-22T16:58:41.693466 #5239]  INFO -- :   Rendered susanoo/users/login.html.erb within layouts/application (92.8ms)
+I, [2017-08-22T16:58:41.734814 #5239]  INFO -- :   Rendered shared/_navigation.html.erb (21.0ms)
+I, [2017-08-22T16:58:42.092275 #5239]  INFO -- : Completed 200 OK in 556ms (Views: 490.1ms | ActiveRecord: 62.5ms)
+I, [2017-08-22T16:58:42.189789 #5239]  INFO -- : Started GET "/assets/application-dad94939c2d60413e98f0bae737233c1.css" for 192.168.122.1 at 2017-08-22 16:58:42 +0900
+I, [2017-08-22T16:58:45.754535 #5239]  INFO -- : Started GET "/assets/ckeditor/config.allowed_content-1f30916ac3355d331d150142e5c3930e.js" for 192.168.122.1 at 2017-08-22 16:58:45 +0900
+I, [2017-08-22T16:58:46.203655 #5239]  INFO -- : Started GET "/assets/application-24f2db0159274fad76514096a4252e75.js" for 192.168.122.1 at 2017-08-22 16:58:46 +0900
+I, [2017-08-22T16:59:05.273947 #5239]  INFO -- : Started GET "/assets/ckeditor/init-9b9eac931da698230a4b26be2130f88b.js" for 192.168.122.1 at 2017-08-22 16:59:05 +0900
+I, [2017-08-22T16:59:05.647292 #5239]  INFO -- : Started GET "/assets/ckeditor/ckeditor.js" for 192.168.122.1 at 2017-08-22 16:59:05 +0900
+I, [2017-08-22T16:59:28.184556 #5239]  INFO -- : Started GET "/assets/ckeditor/config.toolbar-fdc84fd2a8fd72ccd6e6ee82382902d3.js" for 192.168.122.1 at 2017-08-22 16:59:28 +0900
+I, [2017-08-22T16:59:28.830669 #5239]  INFO -- : Started GET "/assets/ckeditor/config.remove_empty_tags-027c8dfd8b6a0044d550e32d284de35a.js" for 192.168.122.1 at 2017-08-22 16:59:28 +0900
+I, [2017-08-22T16:59:29.148177 #5239]  INFO -- : Started GET "/assets/ckeditor/config.language_list-e133fbda5226e0480b800a19944aa24f.js" for 192.168.122.1 at 2017-08-22 16:59:29 +0900
+I, [2017-08-22T16:59:29.175543 #5239]  INFO -- : Started GET "/assets/bootstrap.ckeditor.modal.fix-a08f7183422ad6b21b33d553f7256473.js" for 192.168.122.1 at 2017-08-22 16:59:29 +0900
+I, [2017-08-22T16:59:29.443100 #5239]  INFO -- : Started GET "/assets/info-b8b454a3439990db83f364d1dea34ba0.js" for 192.168.122.1 at 2017-08-22 16:59:29 +0900
+I, [2017-08-22T17:00:24.423367 #5239]  INFO -- : Started POST "/susanoo/users/authenticate" for 192.168.122.1 at 2017-08-22 17:00:24 +0900
+I, [2017-08-22T17:00:24.428260 #5239]  INFO -- : Processing by Susanoo::UsersController#authenticate as HTML
+I, [2017-08-22T17:00:24.428495 #5239]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"i9hOkp9scGgg1pewGhrdDX5VivX4wYapdxK6Rfptt/Q=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+I, [2017-08-22T17:00:24.509373 #5239]  INFO -- : Redirected to http://192.168.122.1:8000/susanoo/dashboards
+I, [2017-08-22T17:00:24.509701 #5239]  INFO -- : Completed 302 Found in 81ms (ActiveRecord: 48.1ms)
+I, [2017-08-22T17:00:24.752629 #5239]  INFO -- : Started GET "/susanoo/dashboards" for 192.168.122.1 at 2017-08-22 17:00:24 +0900
+I, [2017-08-22T17:00:24.756001 #5239]  INFO -- : Processing by Susanoo::DashboardsController#index as HTML
+I, [2017-08-22T17:00:24.857843 #5239]  INFO -- :   Rendered shared/infos/_index.html.erb (0.6ms)
+I, [2017-08-22T17:00:24.858170 #5239]  INFO -- :   Rendered susanoo/dashboards/index.html.erb within layouts/application (45.2ms)
+I, [2017-08-22T17:00:25.023363 #5239]  INFO -- :   Rendered shared/_navigation.html.erb (9.6ms)
+I, [2017-08-22T17:00:25.043805 #5239]  INFO -- : Completed 200 OK in 287ms (Views: 246.2ms | ActiveRecord: 34.4ms)
+I, [2017-08-22T17:00:25.246529 #5239]  INFO -- : Started GET "/assets/susanoo/dashboards-a286a201f04566298bea952ce7aceb4c.css" for 192.168.122.1 at 2017-08-22 17:00:25 +0900
+I, [2017-08-22T17:00:25.273327 #5239]  INFO -- : Started GET "/assets/editor-9030044158ad4b556fbfaedeba7aa667.png" for 192.168.122.1 at 2017-08-22 17:00:25 +0900
+I, [2017-08-22T17:00:25.301579 #5239]  INFO -- : Started GET "/assets/arrow2-right-6ac99b16b56e16dd0050827c044b49e7.png" for 192.168.122.1 at 2017-08-22 17:00:25 +0900
+I, [2017-08-22T17:00:25.350152 #5239]  INFO -- : Started GET "/assets/manager-d707112c8de3c6428bfdc213a74e82c0.png" for 192.168.122.1 at 2017-08-22 17:00:25 +0900
+I, [2017-08-22T17:00:25.361294 #5239]  INFO -- : Started GET "/assets/visitor-f02e4406b7e9040c2a55c3e1372523d2.png" for 192.168.122.1 at 2017-08-22 17:00:25 +0900
+I, [2017-08-22T17:00:25.366717 #5239]  INFO -- : Started GET "/assets/arrow-right-ba15f2fbb0f10a870d364ebbaa2be821.png" for 192.168.122.1 at 2017-08-22 17:00:25 +0900
+I, [2017-08-22T17:00:25.409999 #5239]  INFO -- : Started GET "/assets/arrow-down-left-a82358a91a07146a85863998e39ae8c2.png" for 192.168.122.1 at 2017-08-22 17:00:25 +0900
+I, [2017-08-22T17:00:25.429109 #5239]  INFO -- : Started GET "/assets/arrow-down-right-f49e61fc4a90ed03fee62cbb61f3ac78.png" for 192.168.122.1 at 2017-08-22 17:00:25 +0900
+I, [2017-08-22T17:02:44.473415 #5239]  INFO -- : Started DELETE "/susanoo/users/718075439/logout" for 192.168.122.1 at 2017-08-22 17:02:44 +0900
+I, [2017-08-22T17:02:44.474826 #5239]  INFO -- : Processing by Susanoo::UsersController#logout as HTML
+I, [2017-08-22T17:02:44.474936 #5239]  INFO -- :   Parameters: {"authenticity_token"=>"i9hOkp9scGgg1pewGhrdDX5VivX4wYapdxK6Rfptt/Q=", "id"=>"718075439"}
+I, [2017-08-22T17:02:44.487221 #5239]  INFO -- : Redirected to http://192.168.122.1:8000/susanoo/users/login
+I, [2017-08-22T17:02:44.487558 #5239]  INFO -- : Completed 302 Found in 12ms (ActiveRecord: 8.3ms)
+I, [2017-08-22T17:02:44.516936 #5239]  INFO -- : Started GET "/susanoo/users/login" for 192.168.122.1 at 2017-08-22 17:02:44 +0900
+I, [2017-08-22T17:02:44.518402 #5239]  INFO -- : Processing by Susanoo::UsersController#login as HTML
+I, [2017-08-22T17:02:44.537523 #5239]  INFO -- :   Rendered shared/infos/_index.html.erb (0.5ms)
+I, [2017-08-22T17:02:44.537819 #5239]  INFO -- :   Rendered susanoo/users/login.html.erb within layouts/application (4.7ms)
+I, [2017-08-22T17:02:44.566586 #5239]  INFO -- :   Rendered shared/_navigation.html.erb (0.4ms)
+I, [2017-08-22T17:02:44.572135 #5239]  INFO -- : Completed 200 OK in 53ms (Views: 39.1ms | ActiveRecord: 12.6ms)

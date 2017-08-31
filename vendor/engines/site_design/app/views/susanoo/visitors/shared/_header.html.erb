@@ -1,0 +1,40 @@
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta http-equiv="X-FRAME-OPTIONS" content="SAMEORIGIN" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="">
+<meta name="Keywords" content="pref-shimane-cms,CMS,Ruby,Rails" />
+<meta name="Description" content="pref-shimane-cms" />
+<<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="/css/nivo-lightbox.css" rel="stylesheet" />
+<link href="/css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+<link href="/css/owl.carousel.css" rel="stylesheet" media="screen" />
+<link href="/css/owl.theme.css" rel="stylesheet" media="screen" />
+<link href="/css/animate.css" rel="stylesheet" />
+<link href="/css/style.css" rel="stylesheet">
+<link href="/color/default.css" rel="stylesheet">
+
+<% # RSS load %>
+<% if @page_view.rss_create? && @page_view.rss_path && @page_view.page.try(:persisted?) -%>
+<link type="application/rss+xml" rel="alternate" href="<%= @page_view.rss_path %>" media="all" title="RSS" />
+<% end -%>
+<% if @page_view.edit -%>
+<%= stylesheet_link_tag 'editor.iframe', media: 'all' %>
+<%= javascript_include_tag "application" %>
+<%= javascript_include_tag "editor.iframe" %>
+<% else -%>
+<!--<script type="text/javascript" src="/js/bootstrap.js"></script>-->
+
+<!--<script type="text/javascript" src="/js/jquery-1.10.2.js"></script>-->
+<% end -%>
+<%- # load for AdvertisementManagement -%>
+<%= render partial: "/susanoo/visitors/advertisement_management/header"  if EngineMaster.enable?('advertisement_management') -%>
+<%- # load for BrowsingSupport -%>
+<%= render partial: "/susanoo/visitors/browsing_support/header"  if EngineMaster.enable?('browsing_support') -%>
+<title>大和の部屋 :<%= @page_view.page.title %></title>
