@@ -2,6 +2,12 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
+group :development do
+gem 'sqlite3'
+end
+group :production do
+gem 'pg'
+end
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -38,7 +44,7 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'pg', '0.17.1'
+#gem 'pg', '0.17.1'
 gem 'acts_as_tree', '1.5.0'
 gem 'acts_as_list', '0.3.0'
 gem 'rails_config', '0.3.3'
