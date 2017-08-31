@@ -40,3 +40,4 @@
 
 # Ignore assets files for production
 /public/assets/
+public/uploads
